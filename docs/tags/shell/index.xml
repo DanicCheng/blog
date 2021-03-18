@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>shell on Foryun - Share</title>
+    <link>http://foryun.com.cn/tags/shell/</link>
+    <description>Recent content in shell on Foryun - Share</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 15 Dec 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://foryun.com.cn/tags/shell/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>shell常用指令</title>
+      <link>http://foryun.com.cn/post/share/shell%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/</link>
+      <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://foryun.com.cn/post/share/shell%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/</guid>
+      <description>$开头 1 2 3 4 5 6 7 8 9 $0 这个程式的执行名字 $n 这个程式的第n个参数值，n=1..9 $* 这个程式的所有参数,此选项参数可超过9个。 $# 这个程式的参</description>
+    </item>
+    
+  </channel>
+</rss>

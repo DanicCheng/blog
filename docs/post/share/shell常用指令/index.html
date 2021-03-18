@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>shell常用指令 - Foryun - Share</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="Danic" /><meta name="description" content="$开头 1 2 3 4 5 6 7 8 9 $0 这个程式的执行名字 $n 这个程式的第n个参数值，n=1..9 $* 这个程式的所有参数,此选项参数可超过9个。 $# 这个程式的参" /><meta name="keywords" content="Blog, IT, Share, Record" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.81.0 with theme even" />
+
+
+<link rel="canonical" href="http://foryun.com.cn/post/share/shell%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<link href="/sass/main.min.af7fd1da18d66c2b017df5b4cae508ef44cfcac3fb4c7c7a327fe4f4f9e28b08.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+<meta property="og:title" content="shell常用指令" />
+<meta property="og:description" content="$开头 1 2 3 4 5 6 7 8 9 $0 这个程式的执行名字 $n 这个程式的第n个参数值，n=1..9 $* 这个程式的所有参数,此选项参数可超过9个。 $# 这个程式的参" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://foryun.com.cn/post/share/shell%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2020-12-15T00:00:00&#43;00:00" />
+<meta property="article:modified_time" content="2020-12-15T00:00:00&#43;00:00" />
+
+<meta itemprop="name" content="shell常用指令">
+<meta itemprop="description" content="$开头 1 2 3 4 5 6 7 8 9 $0 这个程式的执行名字 $n 这个程式的第n个参数值，n=1..9 $* 这个程式的所有参数,此选项参数可超过9个。 $# 这个程式的参"><meta itemprop="datePublished" content="2020-12-15T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-12-15T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="658">
+<meta itemprop="keywords" content="shell," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="shell常用指令"/>
+<meta name="twitter:description" content="$开头 1 2 3 4 5 6 7 8 9 $0 这个程式的执行名字 $n 这个程式的第n个参数值，n=1..9 $* 这个程式的所有参数,此选项参数可超过9个。 $# 这个程式的参"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Foryun</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a><a href="/diary/">
+        <li class="mobile-menu-item">Diary</li>
+      </a>
+  </ul>
+
+  
+
+
+</nav>
+
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">Foryun</a>
+</div>
+
+
+
+
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">Categories</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/diary/">Diary</a>
+      </li>
+  </ul>
+</nav>
+
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">shell常用指令</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2020-12-15 </span>
+        <div class="post-category">
+            <a href="/categories/share/"> Share </a>
+            </div>
+          <span class="more-meta"> 约 658 字 </span>
+          <span class="more-meta"> 预计阅读 2 分钟 </span>
+        <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 次阅读 </span>
+      </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">文章目录</h2>
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#开头">$开头</a></li>
+        <li><a href="#判断表达式">判断表达式</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</div>
+    <div class="post-content">
+      <h2 id="开头">$开头</h2>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell"><span class="nv">$0</span> 这个程式的执行名字
+<span class="nv">$n</span> 这个程式的第n个参数值，n<span class="o">=</span>1..9
+<span class="nv">$*</span> 这个程式的所有参数,此选项参数可超过9个。
+<span class="nv">$#</span> 这个程式的参数个数
+<span class="nv">$$</span> 这个程式的PID<span class="o">(</span>脚本运行的当前进程ID号<span class="o">)</span>
+<span class="nv">$!</span> 执行上一个背景指令的PID<span class="o">(</span>后台运行的最后一个进程的进程ID号<span class="o">)</span>
+<span class="nv">$?</span> 执行上一个指令的返回值 <span class="o">(</span>显示最后命令的退出状态。0表示没有错误，其他任何值表明有错误<span class="o">)</span>
+<span class="nv">$-</span> 显示shell使用的当前选项，与set命令功能相同
+<span class="nv">$@</span> 跟<span class="nv">$*</span>类似，但是可以当作数组用
+</code></pre></td></tr></table>
+</div>
+</div><h2 id="判断表达式">判断表达式</h2>
+<p>文件比较运算符</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span><span class="lnt">7
+</span><span class="lnt">8
+</span><span class="lnt">9
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">-e filename 	如果 filename存在，则为真 	<span class="o">[</span> -e /var/log/syslog <span class="o">]</span>
+-d filename 	如果 filename为目录，则为真 	<span class="o">[</span> -d /tmp/mydir <span class="o">]</span>
+-f filename 	如果 filename为常规文件，则为真 	<span class="o">[</span> -f /usr/bin/grep <span class="o">]</span>
+-L filename 	如果 filename为符号链接，则为真 	<span class="o">[</span> -L /usr/bin/grep <span class="o">]</span>
+-r filename 	如果 filename可读，则为真 	<span class="o">[</span> -r /var/log/syslog <span class="o">]</span>
+-w filename 	如果 filename可写，则为真 	<span class="o">[</span> -w /var/mytmp.txt <span class="o">]</span>
+-x filename 	如果 filename可执行，则为真 	<span class="o">[</span> -L /usr/bin/grep <span class="o">]</span>
+filename1-nt filename2 	如果 filename1比 filename2新，则为真 	<span class="o">[</span> /tmp/install/etc/services -nt /etc/services <span class="o">]</span>
+filename1-ot filename2 	如果 filename1比 filename2旧，则为真 	<span class="o">[</span> /boot/bzImage -ot arch/i386/boot/bzImage <span class="o">]</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>字符串比较运算符</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">-z string 	如果 string长度为零，则为真 	<span class="o">[</span> -z <span class="s2">&#34;</span><span class="nv">$myvar</span><span class="s2">&#34;</span> <span class="o">]</span>
+-n string 	如果 string长度非零，则为真 	<span class="o">[</span> -n <span class="s2">&#34;</span><span class="nv">$myvar</span><span class="s2">&#34;</span> <span class="o">]</span>
+<span class="nv">string1</span><span class="o">=</span> string2 	如果 string1与 string2相同，则为真 	<span class="o">[</span> <span class="s2">&#34;</span><span class="nv">$myvar</span><span class="s2">&#34;</span> <span class="o">=</span> <span class="s2">&#34;one two three&#34;</span> <span class="o">]</span>
+string1!<span class="o">=</span> string2 	如果 string1与 string2不同，则为真 	<span class="o">[</span> <span class="s2">&#34;</span><span class="nv">$myvar</span><span class="s2">&#34;</span> !<span class="o">=</span> <span class="s2">&#34;one two three&#34;</span> <span class="o">]</span>
+</code></pre></td></tr></table>
+</div>
+</div><p>算数比较运算符</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span><span class="lnt">6
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-shell" data-lang="shell">num1-eq num2 	等于	<span class="o">[</span> <span class="m">3</span> -eq <span class="nv">$mynum</span> <span class="o">]</span>
+num1-ne num2 	不等于	<span class="o">[</span> <span class="m">3</span> -ne <span class="nv">$mynum</span> <span class="o">]</span>
+num1-lt num2 	小于	<span class="o">[</span> <span class="m">3</span> -lt <span class="nv">$mynum</span> <span class="o">]</span>
+num1-le num2 	小于或等于	<span class="o">[</span> <span class="m">3</span> -le <span class="nv">$mynum</span> <span class="o">]</span>
+num1-gt num2 	大于	<span class="o">[</span> <span class="m">3</span> -gt <span class="nv">$mynum</span> <span class="o">]</span>
+num1-ge num2 	大于或等于	<span class="o">[</span> <span class="m">3</span> -ge <span class="nv">$mynum</span> <span class="o">]</span>
+</code></pre></td></tr></table>
+</div>
+</div>
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">Danic</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">
+        2020-12-15
+        
+    </span>
+  </p>
+  
+  
+</div>
+<footer class="post-footer">
+      <div class="post-tags">
+          <a href="/tags/shell/">shell</a>
+          </div>
+      <nav class="post-nav">
+        <a class="prev" href="/post/share/jenkins%E9%85%8D%E7%BD%AE/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">jenkins Mac配置</span>
+            <span class="prev-text nav-mobile">上一篇</span>
+          </a>
+        <a class="next" href="/post/share/%E4%BD%BF%E7%94%A8navicatpremium%E6%93%8D%E4%BD%9Cmongodb/">
+            <span class="next-text nav-default">使用NavicatPremium操作Mongodb</span>
+            <span class="next-text nav-mobile">下一篇</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+  <span id="/post/share/shell%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/" class="leancloud_visitors" data-flag-title="shell常用指令">
+		<span class="post-meta-item-text">文章阅读量 </span>
+		<span class="leancloud-visitors-count">0</span>
+		<p></p>
+	  </span>
+  <div id="vcomments"></div>
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+  <script type="text/javascript">
+    new Valine({
+        el: '#vcomments' ,
+        appId: 'insXINA0D2ccQdcEfEcMSjgn-gzGzoHsz',
+        appKey: 'HEAEkloDNn3aFg4Yr1W4iGM3',
+        notify:  false ,
+        verify:  false ,
+        avatar:'mm',
+        placeholder: '说点什么吧...',
+        visitor:  true 
+    });
+  </script>
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:1186976350@qq.com" class="iconfont icon-email" title="email"></a>
+      <a href="https://github.com/DanicCheng" class="iconfont icon-github" title="github"></a>
+      <a href="https://space.bilibili.com/2920221?spm_id_from=333.788.b_765f7570696e666f.2" class="iconfont icon-bilibili" title="bilibili"></a>
+  
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    由 <a class="hexo-link" href="https://gohugo.io">Hugo</a> 强力驱动
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    主题 - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  <div class="busuanzi-footer">
+    <span id="busuanzi_container_site_pv"> 本站总访问量 <span id="busuanzi_value_site_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 次 </span>
+      <span class="division">|</span>
+    <span id="busuanzi_container_site_uv"> 本站总访客数 <span id="busuanzi_value_site_uv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 人 </span>
+  </div>
+
+  <span class="copyright-year">
+    &copy; 
+    2017 - 
+    2021<span class="heart"><i class="iconfont icon-heart"></i></span><span>Foryun</span>
+  </span>
+
+  <span class="beian">
+    
+    备案号：<a href="https://beian.miit.gov.cn" target="_blank">粤ICP备18045119号</a>
+    
+  </span>
+
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+
+
+
+<script type="text/javascript" src="/js/main.min.c99b103c33d1539acf3025e1913697534542c4a5aa5af0ccc20475ed2863603b.js"></script>
+
+<script id="baidu_analytics">
+  var _hmt = _hmt || [];
+  (function() {
+    if (window.location.hostname === 'localhost') return;
+    var hm = document.createElement("script"); hm.async = true;
+    hm.src = "https://hm.baidu.com/hm.js?57ed19d6fdd95893edd119b86ac49dab";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>
+
+
+
+
+
+
+</body>
+</html>

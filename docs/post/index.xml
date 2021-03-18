@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Foryun - Share</title>
+    <link>http://foryun.com.cn/post/</link>
+    <description>Recent content in Posts on Foryun - Share</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 15 Mar 2021 15:26:17 +0400</lastBuildDate><atom:link href="http://foryun.com.cn/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>C#用Zlib压缩或解压缩字节数组</title>
+      <link>http://foryun.com.cn/post/share/%E7%94%A8zlib%E5%8E%8B%E7%BC%A9%E6%88%96%E8%A7%A3%E5%8E%8B%E7%BC%A9%E5%AD%97%E8%8A%82%E6%95%B0%E7%BB%84/</link>
+      <pubDate>Mon, 15 Mar 2021 15:26:17 +0400</pubDate>
+      
+      <guid>http://foryun.com.cn/post/share/%E7%94%A8zlib%E5%8E%8B%E7%BC%A9%E6%88%96%E8%A7%A3%E5%8E%8B%E7%BC%A9%E5%AD%97%E8%8A%82%E6%95%B0%E7%BB%84/</guid>
+      <description>代码如下 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66</description>
+    </item>
+    
+    <item>
+      <title>pako.js简单使用</title>
+      <link>http://foryun.com.cn/post/share/pako.js%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</link>
+      <pubDate>Mon, 15 Mar 2021 15:22:43 +0400</pubDate>
+      
+      <guid>http://foryun.com.cn/post/share/pako.js%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</guid>
+      <description>pako.js是一款可以对内容进行压缩/解压的js，它的主要代码借鉴zlib。(zlib在1995年发表，它的内部使用DEFLATE算法，而</description>
+    </item>
+    
+    <item>
+      <title>JavaScript及C# URI编码详解</title>
+      <link>http://foryun.com.cn/post/share/uri%E7%BC%96%E7%A0%81%E8%AF%A6%E8%A7%A3/</link>
+      <pubDate>Mon, 15 Mar 2021 15:12:17 +0400</pubDate>
+      
+      <guid>http://foryun.com.cn/post/share/uri%E7%BC%96%E7%A0%81%E8%AF%A6%E8%A7%A3/</guid>
+      <description>混乱的URI编码 JavaScript中编码有三种方法:escape、encodeURI、encodeURIComponent C#中编码主要方</description>
+    </item>
+    
+    <item>
+      <title>GameFramework</title>
+      <link>http://foryun.com.cn/post/share/unitygameframework/gameframework/</link>
+      <pubDate>Sun, 14 Mar 2021 11:50:46 +0400</pubDate>
+      
+      <guid>http://foryun.com.cn/post/share/unitygameframework/gameframework/</guid>
+      <description>Base GameFramework/Base GameFrameworkEntry 这是个静态类，是游戏框架的入口。 Update、Shutdown方法，让游戏框架的模块拥有轮询和关闭方法。 获取模块，在GameFrame</description>
+    </item>
+    
+    <item>
+      <title>UnityGameFramework</title>
+      <link>http://foryun.com.cn/post/share/unitygameframework/unitygameframework/</link>
+      <pubDate>Sun, 14 Mar 2021 09:55:41 +0400</pubDate>
+      
+      <guid>http://foryun.com.cn/post/share/unitygameframework/unitygameframework/</guid>
+      <description>Base UnityGameFramework/Scripts/Runtime/Base ShutdownType 关闭游戏框架类型：仅关闭游戏框架、关闭游戏框架并重启游戏、关闭游戏框架并退出游戏。 GameFrameworkComponent 针对MonoBehaviour进行二次封装，这是个</description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>http://foryun.com.cn/post/record/hogo/</link>
+      <pubDate>Sun, 14 Mar 2021 08:52:20 +0400</pubDate>
+      
+      <guid>http://foryun.com.cn/post/record/hogo/</guid>
+      <description>创建新文件 在根目录执行下面命令 1 hugo new post/first.md 本地测试启动命令 1 hugo server --theme=even --buildDrafts 部署命令 1 hugo --theme=even --baseUrl=&amp;#34;http://foryun.com.cn/&amp;#34;</description>
+    </item>
+    
+    <item>
+      <title>jenkins Mac配置</title>
+      <link>http://foryun.com.cn/post/share/jenkins%E9%85%8D%E7%BD%AE/</link>
+      <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://foryun.com.cn/post/share/jenkins%E9%85%8D%E7%BD%AE/</guid>
+      <description>编写docker-compose.yml 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 version: &amp;#39;3.1&amp;#39;services: jenkins: image: jenkins/jenkins:lts volumes: # mac配置 - /Users/danic/docker-home/jenkins/:/var/jenkins_home # centos8配置 # - /home/test/docker-home/jenkins/:/var/jenkins_home ports: - &amp;#34;8080:8080&amp;#34; -</description>
+    </item>
+    
+    <item>
+      <title>shell常用指令</title>
+      <link>http://foryun.com.cn/post/share/shell%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/</link>
+      <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://foryun.com.cn/post/share/shell%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/</guid>
+      <description>$开头 1 2 3 4 5 6 7 8 9 $0 这个程式的执行名字 $n 这个程式的第n个参数值，n=1..9 $* 这个程式的所有参数,此选项参数可超过9个。 $# 这个程式的参</description>
+    </item>
+    
+    <item>
+      <title>使用NavicatPremium操作Mongodb</title>
+      <link>http://foryun.com.cn/post/share/%E4%BD%BF%E7%94%A8navicatpremium%E6%93%8D%E4%BD%9Cmongodb/</link>
+      <pubDate>Sun, 11 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://foryun.com.cn/post/share/%E4%BD%BF%E7%94%A8navicatpremium%E6%93%8D%E4%BD%9Cmongodb/</guid>
+      <description>下载安装NavicatPremium 链接:https://pan.baidu.com/s/1xyRaP_vp1ahP1PU79zf43w 提取</description>
+    </item>
+    
+    <item>
+      <title>Task-Async-Await</title>
+      <link>http://foryun.com.cn/post/share/task-async-await/</link>
+      <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://foryun.com.cn/post/share/task-async-await/</guid>
+      <description>常规的async/await如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 static void Main(string[] args) { Console.WriteLine(&amp;#3</description>
+    </item>
+    
+    <item>
+      <title>虚拟角色相关资料</title>
+      <link>http://foryun.com.cn/post/record/%E8%99%9A%E6%8B%9F%E8%A7%92%E8%89%B2%E7%9B%B8%E5%85%B3%E8%B5%84%E6%96%99/</link>
+      <pubDate>Tue, 29 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://foryun.com.cn/post/record/%E8%99%9A%E6%8B%9F%E8%A7%92%E8%89%B2%E7%9B%B8%E5%85%B3%E8%B5%84%E6%96%99/</guid>
+      <description>MikuMikuDance 一个免费的3D虚拟角色动画制作软件，有很多粉丝制作的大量的素材。 https://w.atwiki.jp/vpvpwiki VTuber 使用虚拟角色，通过脸部图形捕捉，达到虚拟角色直播的效果。 https://lab.uwa4d.com/lab/5da8d69e8bab6aaf02add1a3 https://unity-chan.com/ https://github.com/yinguobing/head-pose-estimation https://github.com/1adrianb/face-alignment https://github.com/antoinelame/GazeTracking https://github.com/kwea123/OpenVTuberProject</description>
+    </item>
+    
+    <item>
+      <title>docker技术分享总结</title>
+      <link>http://foryun.com.cn/post/share/docker/docker%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB%E6%80%BB%E7%BB%93/</link>
+      <pubDate>Sat, 26 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://foryun.com.cn/post/share/docker/docker%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB%E6%80%BB%E7%BB%93/</guid>
+      <description>今天给项目组的小伙伴分享了一下docker的使用，感觉分享的过程和效果都不太理想。我发现主要有以下几个问题。 没有介绍技术背景，为什么要使用这</description>
+    </item>
+    
+    <item>
+      <title>docker使用分享</title>
+      <link>http://foryun.com.cn/post/share/docker/docker%E4%BD%BF%E7%94%A8%E5%88%86%E4%BA%AB/</link>
+      <pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://foryun.com.cn/post/share/docker/docker%E4%BD%BF%E7%94%A8%E5%88%86%E4%BA%AB/</guid>
+      <description>0.背景 一、环境配置的难题 软件开发最大的麻烦事之一，就是环境配置。用户计算机的环境都不相同，你怎么知道自家的软件，能在那些机器跑起来？ 用户必</description>
+    </item>
+    
+    <item>
+      <title>Dockerfile</title>
+      <link>http://foryun.com.cn/post/share/docker/dockerfile/</link>
+      <pubDate>Thu, 24 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://foryun.com.cn/post/share/docker/dockerfile/</guid>
+      <description>Docker Dockerfile 什么是 Dockerfile？ Dockerfile 是一个用来构建镜像的文本文件，文本内容包含了一条条构建镜像所需的指令和说明。 使用 Dockerfile 定制镜像 这里仅讲解如何运</description>
+    </item>
+    
+    <item>
+      <title>docker-compose</title>
+      <link>http://foryun.com.cn/post/share/docker/docker-compose/</link>
+      <pubDate>Wed, 23 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://foryun.com.cn/post/share/docker/docker-compose/</guid>
+      <description>一.Docker-compose简介 1.Docker-compose简介 Docker-Compose项目是Docker官方的开源项目，负责实</description>
+    </item>
+    
+    <item>
+      <title>docker常用命令</title>
+      <link>http://foryun.com.cn/post/share/docker/docker%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link>
+      <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://foryun.com.cn/post/share/docker/docker%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</guid>
+      <description>容器生命周期管理 run docker run: 创建一个新的容器并运行一个命令 语法 1 docker run [OPTIONS] IMAGE [COMMAND] [ARG...] OPTIONS说明： -a stdin: 指定标准输入输出内容类型，可选 STDIN/STDOUT/STDERR 三项； -d: 后台运</description>
+    </item>
+    
+    <item>
+      <title>mac环境变量设置</title>
+      <link>http://foryun.com.cn/post/share/mac%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E8%AE%BE%E7%BD%AE/</link>
+      <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://foryun.com.cn/post/share/mac%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E8%AE%BE%E7%BD%AE/</guid>
+      <description>mac的环境变量在.zshrc中配置 打开终端，输入： 1 2 3 cd ~ ls -a open .zshrc 在打开的窗口中配置环境变量。</description>
+    </item>
+    
+    <item>
+      <title>cnpm安装</title>
+      <link>http://foryun.com.cn/post/share/cnpm%E5%AE%89%E8%A3%85/</link>
+      <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://foryun.com.cn/post/share/cnpm%E5%AE%89%E8%A3%85/</guid>
+      <description>安装cnpm，输入以下命令： 1 npm install -g cnpm --registry=https://registry.npm.taobao.org</description>
+    </item>
+    
+    <item>
+      <title>vue环境搭建</title>
+      <link>http://foryun.com.cn/post/share/vue/vue%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</link>
+      <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://foryun.com.cn/post/share/vue/vue%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</guid>
+      <description>安装vue-cli 1 cnpm install -g @vue/cli</description>
+    </item>
+    
+    <item>
+      <title>vuepress博客搭建</title>
+      <link>http://foryun.com.cn/post/share/vue/vuepress%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://foryun.com.cn/post/share/vue/vuepress%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</guid>
+      <description>博客使用的是VuePress制作。 主题用的vuepress-theme-reco。 具体的安装，初始化，部署流程，自行看上面的链接。 该博客的常</description>
+    </item>
+    
+    <item>
+      <title>游戏作品链接</title>
+      <link>http://foryun.com.cn/post/products/game_url/</link>
+      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://foryun.com.cn/post/products/game_url/</guid>
+      <description>挑战智商150 一款搞怪答题游戏 2048Go 一款另类的2048消除游戏。 宝贝梦想家 一款教小孩子认识各种职业的游戏 画线消除 一款根据提示画出对应图形的消除游</description>
+    </item>
+    
+    <item>
+      <title>Git工作流</title>
+      <link>http://foryun.com.cn/post/record/git%E5%B7%A5%E4%BD%9C%E6%B5%81/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://foryun.com.cn/post/record/git%E5%B7%A5%E4%BD%9C%E6%B5%81/</guid>
+      <description>Git工作流 参考链接：https://www.jianshu.com/p/41910dc6ef29 为了更好的管理Git分支，按照Git Flo</description>
+    </item>
+    
+    <item>
+      <title>pomelo</title>
+      <link>http://foryun.com.cn/post/share/pomelo%E7%AE%80%E4%BB%8B/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://foryun.com.cn/post/share/pomelo%E7%AE%80%E4%BB%8B/</guid>
+      <description>pomelo构成 pomelo是由一个核心框架及一系列松耦合的模块构成，包括： 框架（Framework） 网络框架是pomelo最核心的部分 库（</description>
+    </item>
+    
+  </channel>
+</rss>

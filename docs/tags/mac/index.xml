@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mac on Foryun - Share</title>
+    <link>http://foryun.com.cn/tags/mac/</link>
+    <description>Recent content in Mac on Foryun - Share</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 22 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://foryun.com.cn/tags/mac/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>mac环境变量设置</title>
+      <link>http://foryun.com.cn/post/share/mac%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E8%AE%BE%E7%BD%AE/</link>
+      <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://foryun.com.cn/post/share/mac%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E8%AE%BE%E7%BD%AE/</guid>
+      <description>mac的环境变量在.zshrc中配置 打开终端，输入： 1 2 3 cd ~ ls -a open .zshrc 在打开的窗口中配置环境变量。</description>
+    </item>
+    
+  </channel>
+</rss>

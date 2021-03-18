@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>docker on Foryun - Share</title>
+    <link>http://foryun.com.cn/tags/docker/</link>
+    <description>Recent content in docker on Foryun - Share</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 25 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://foryun.com.cn/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>docker使用分享</title>
+      <link>http://foryun.com.cn/post/share/docker/docker%E4%BD%BF%E7%94%A8%E5%88%86%E4%BA%AB/</link>
+      <pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://foryun.com.cn/post/share/docker/docker%E4%BD%BF%E7%94%A8%E5%88%86%E4%BA%AB/</guid>
+      <description>0.背景 一、环境配置的难题 软件开发最大的麻烦事之一，就是环境配置。用户计算机的环境都不相同，你怎么知道自家的软件，能在那些机器跑起来？ 用户必</description>
+    </item>
+    
+    <item>
+      <title>Dockerfile</title>
+      <link>http://foryun.com.cn/post/share/docker/dockerfile/</link>
+      <pubDate>Thu, 24 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://foryun.com.cn/post/share/docker/dockerfile/</guid>
+      <description>Docker Dockerfile 什么是 Dockerfile？ Dockerfile 是一个用来构建镜像的文本文件，文本内容包含了一条条构建镜像所需的指令和说明。 使用 Dockerfile 定制镜像 这里仅讲解如何运</description>
+    </item>
+    
+    <item>
+      <title>docker-compose</title>
+      <link>http://foryun.com.cn/post/share/docker/docker-compose/</link>
+      <pubDate>Wed, 23 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://foryun.com.cn/post/share/docker/docker-compose/</guid>
+      <description>一.Docker-compose简介 1.Docker-compose简介 Docker-Compose项目是Docker官方的开源项目，负责实</description>
+    </item>
+    
+    <item>
+      <title>docker常用命令</title>
+      <link>http://foryun.com.cn/post/share/docker/docker%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link>
+      <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://foryun.com.cn/post/share/docker/docker%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</guid>
+      <description>容器生命周期管理 run docker run: 创建一个新的容器并运行一个命令 语法 1 docker run [OPTIONS] IMAGE [COMMAND] [ARG...] OPTIONS说明： -a stdin: 指定标准输入输出内容类型，可选 STDIN/STDOUT/STDERR 三项； -d: 后台运</description>
+    </item>
+    
+  </channel>
+</rss>

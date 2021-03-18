@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>record on Foryun - Share</title>
+    <link>http://foryun.com.cn/tags/record/</link>
+    <description>Recent content in record on Foryun - Share</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Tue, 29 Sep 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://foryun.com.cn/tags/record/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>虚拟角色相关资料</title>
+      <link>http://foryun.com.cn/post/record/%E8%99%9A%E6%8B%9F%E8%A7%92%E8%89%B2%E7%9B%B8%E5%85%B3%E8%B5%84%E6%96%99/</link>
+      <pubDate>Tue, 29 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://foryun.com.cn/post/record/%E8%99%9A%E6%8B%9F%E8%A7%92%E8%89%B2%E7%9B%B8%E5%85%B3%E8%B5%84%E6%96%99/</guid>
+      <description>MikuMikuDance 一个免费的3D虚拟角色动画制作软件，有很多粉丝制作的大量的素材。 https://w.atwiki.jp/vpvpwiki VTuber 使用虚拟角色，通过脸部图形捕捉，达到虚拟角色直播的效果。 https://lab.uwa4d.com/lab/5da8d69e8bab6aaf02add1a3 https://unity-chan.com/ https://github.com/yinguobing/head-pose-estimation https://github.com/1adrianb/face-alignment https://github.com/antoinelame/GazeTracking https://github.com/kwea123/OpenVTuberProject</description>
+    </item>
+    
+    <item>
+      <title>docker技术分享总结</title>
+      <link>http://foryun.com.cn/post/share/docker/docker%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB%E6%80%BB%E7%BB%93/</link>
+      <pubDate>Sat, 26 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://foryun.com.cn/post/share/docker/docker%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB%E6%80%BB%E7%BB%93/</guid>
+      <description>今天给项目组的小伙伴分享了一下docker的使用，感觉分享的过程和效果都不太理想。我发现主要有以下几个问题。 没有介绍技术背景，为什么要使用这</description>
+    </item>
+    
+  </channel>
+</rss>

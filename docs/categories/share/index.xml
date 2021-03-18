@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Share on Foryun - Share</title>
+    <link>http://foryun.com.cn/categories/share/</link>
+    <description>Recent content in Share on Foryun - Share</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 15 Mar 2021 15:26:17 +0400</lastBuildDate><atom:link href="http://foryun.com.cn/categories/share/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>C#用Zlib压缩或解压缩字节数组</title>
+      <link>http://foryun.com.cn/post/share/%E7%94%A8zlib%E5%8E%8B%E7%BC%A9%E6%88%96%E8%A7%A3%E5%8E%8B%E7%BC%A9%E5%AD%97%E8%8A%82%E6%95%B0%E7%BB%84/</link>
+      <pubDate>Mon, 15 Mar 2021 15:26:17 +0400</pubDate>
+      
+      <guid>http://foryun.com.cn/post/share/%E7%94%A8zlib%E5%8E%8B%E7%BC%A9%E6%88%96%E8%A7%A3%E5%8E%8B%E7%BC%A9%E5%AD%97%E8%8A%82%E6%95%B0%E7%BB%84/</guid>
+      <description>代码如下 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28 29 30 31 32 33 34 35 36 37 38 39 40 41 42 43 44 45 46 47 48 49 50 51 52 53 54 55 56 57 58 59 60 61 62 63 64 65 66</description>
+    </item>
+    
+    <item>
+      <title>pako.js简单使用</title>
+      <link>http://foryun.com.cn/post/share/pako.js%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</link>
+      <pubDate>Mon, 15 Mar 2021 15:22:43 +0400</pubDate>
+      
+      <guid>http://foryun.com.cn/post/share/pako.js%E7%AE%80%E5%8D%95%E4%BD%BF%E7%94%A8/</guid>
+      <description>pako.js是一款可以对内容进行压缩/解压的js，它的主要代码借鉴zlib。(zlib在1995年发表，它的内部使用DEFLATE算法，而</description>
+    </item>
+    
+    <item>
+      <title>JavaScript及C# URI编码详解</title>
+      <link>http://foryun.com.cn/post/share/uri%E7%BC%96%E7%A0%81%E8%AF%A6%E8%A7%A3/</link>
+      <pubDate>Mon, 15 Mar 2021 15:12:17 +0400</pubDate>
+      
+      <guid>http://foryun.com.cn/post/share/uri%E7%BC%96%E7%A0%81%E8%AF%A6%E8%A7%A3/</guid>
+      <description>混乱的URI编码 JavaScript中编码有三种方法:escape、encodeURI、encodeURIComponent C#中编码主要方</description>
+    </item>
+    
+    <item>
+      <title>jenkins Mac配置</title>
+      <link>http://foryun.com.cn/post/share/jenkins%E9%85%8D%E7%BD%AE/</link>
+      <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://foryun.com.cn/post/share/jenkins%E9%85%8D%E7%BD%AE/</guid>
+      <description>编写docker-compose.yml 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 version: &amp;#39;3.1&amp;#39;services: jenkins: image: jenkins/jenkins:lts volumes: # mac配置 - /Users/danic/docker-home/jenkins/:/var/jenkins_home # centos8配置 # - /home/test/docker-home/jenkins/:/var/jenkins_home ports: - &amp;#34;8080:8080&amp;#34; -</description>
+    </item>
+    
+    <item>
+      <title>shell常用指令</title>
+      <link>http://foryun.com.cn/post/share/shell%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/</link>
+      <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://foryun.com.cn/post/share/shell%E5%B8%B8%E7%94%A8%E6%8C%87%E4%BB%A4/</guid>
+      <description>$开头 1 2 3 4 5 6 7 8 9 $0 这个程式的执行名字 $n 这个程式的第n个参数值，n=1..9 $* 这个程式的所有参数,此选项参数可超过9个。 $# 这个程式的参</description>
+    </item>
+    
+    <item>
+      <title>使用NavicatPremium操作Mongodb</title>
+      <link>http://foryun.com.cn/post/share/%E4%BD%BF%E7%94%A8navicatpremium%E6%93%8D%E4%BD%9Cmongodb/</link>
+      <pubDate>Sun, 11 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://foryun.com.cn/post/share/%E4%BD%BF%E7%94%A8navicatpremium%E6%93%8D%E4%BD%9Cmongodb/</guid>
+      <description>下载安装NavicatPremium 链接:https://pan.baidu.com/s/1xyRaP_vp1ahP1PU79zf43w 提取</description>
+    </item>
+    
+    <item>
+      <title>Task-Async-Await</title>
+      <link>http://foryun.com.cn/post/share/task-async-await/</link>
+      <pubDate>Fri, 09 Oct 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://foryun.com.cn/post/share/task-async-await/</guid>
+      <description>常规的async/await如下： 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 static void Main(string[] args) { Console.WriteLine(&amp;#3</description>
+    </item>
+    
+    <item>
+      <title>mac环境变量设置</title>
+      <link>http://foryun.com.cn/post/share/mac%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E8%AE%BE%E7%BD%AE/</link>
+      <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://foryun.com.cn/post/share/mac%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E8%AE%BE%E7%BD%AE/</guid>
+      <description>mac的环境变量在.zshrc中配置 打开终端，输入： 1 2 3 cd ~ ls -a open .zshrc 在打开的窗口中配置环境变量。</description>
+    </item>
+    
+    <item>
+      <title>cnpm安装</title>
+      <link>http://foryun.com.cn/post/share/cnpm%E5%AE%89%E8%A3%85/</link>
+      <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://foryun.com.cn/post/share/cnpm%E5%AE%89%E8%A3%85/</guid>
+      <description>安装cnpm，输入以下命令： 1 npm install -g cnpm --registry=https://registry.npm.taobao.org</description>
+    </item>
+    
+    <item>
+      <title>pomelo</title>
+      <link>http://foryun.com.cn/post/share/pomelo%E7%AE%80%E4%BB%8B/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://foryun.com.cn/post/share/pomelo%E7%AE%80%E4%BB%8B/</guid>
+      <description>pomelo构成 pomelo是由一个核心框架及一系列松耦合的模块构成，包括： 框架（Framework） 网络框架是pomelo最核心的部分 库（</description>
+    </item>
+    
+  </channel>
+</rss>
