@@ -6,7 +6,16 @@
     <description>Recent content in Posts on Foryun - Share</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Mon, 15 Mar 2021 15:26:17 +0400</lastBuildDate><atom:link href="http://foryun.com.cn/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 18 Mar 2021 10:22:59 +0400</lastBuildDate><atom:link href="http://foryun.com.cn/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>js的encodeURIComponent导致中文乱码的问题</title>
+      <link>http://foryun.com.cn/post/share/js%E7%9A%84encodeuricomponent%E5%AF%BC%E8%87%B4%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E7%9A%84%E9%97%AE%E9%A2%98/</link>
+      <pubDate>Thu, 18 Mar 2021 10:22:59 +0400</pubDate>
+      
+      <guid>http://foryun.com.cn/post/share/js%E7%9A%84encodeuricomponent%E5%AF%BC%E8%87%B4%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
+      <description>问题描述 服务端用的pomelo，对json进行了encodeURIComponent处理，客户端用的C#，进行decode操作后，中文乱码，</description>
+    </item>
+    
     <item>
       <title>C#用Zlib压缩或解压缩字节数组</title>
       <link>http://foryun.com.cn/post/share/%E7%94%A8zlib%E5%8E%8B%E7%BC%A9%E6%88%96%E8%A7%A3%E5%8E%8B%E7%BC%A9%E5%AD%97%E8%8A%82%E6%95%B0%E7%BB%84/</link>
@@ -50,15 +59,6 @@
       
       <guid>http://foryun.com.cn/post/share/unitygameframework/unitygameframework/</guid>
       <description>Base UnityGameFramework/Scripts/Runtime/Base ShutdownType 关闭游戏框架类型：仅关闭游戏框架、关闭游戏框架并重启游戏、关闭游戏框架并退出游戏。 GameFrameworkComponent 针对MonoBehaviour进行二次封装，这是个</description>
-    </item>
-    
-    <item>
-      <title>Hugo</title>
-      <link>http://foryun.com.cn/post/record/hogo/</link>
-      <pubDate>Sun, 14 Mar 2021 08:52:20 +0400</pubDate>
-      
-      <guid>http://foryun.com.cn/post/record/hogo/</guid>
-      <description>创建新文件 在根目录执行下面命令 1 hugo new post/first.md 本地测试启动命令 1 hugo server --theme=even --buildDrafts 部署命令 1 hugo --theme=even --baseUrl=&amp;#34;http://foryun.com.cn/&amp;#34;</description>
     </item>
     
     <item>

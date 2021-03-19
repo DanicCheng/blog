@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Records on Foryun - Share</title>
+    <link>http://foryun.com.cn/record/</link>
+    <description>Recent content in Records on Foryun - Share</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Fri, 19 Mar 2021 10:56:24 +0400</lastBuildDate><atom:link href="http://foryun.com.cn/record/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git</title>
+      <link>http://foryun.com.cn/record/git/</link>
+      <pubDate>Fri, 19 Mar 2021 10:56:24 +0400</pubDate>
+      
+      <guid>http://foryun.com.cn/record/git/</guid>
+      <description>拉取代码 1 git pull 检出仓库 1 git clone git://github.com/someone/some_project.git some_project 删除本地所有未提交的更改 1 git checkout .</description>
+    </item>
+    
+    <item>
+      <title>Hugo</title>
+      <link>http://foryun.com.cn/record/hogo/</link>
+      <pubDate>Sun, 14 Mar 2021 08:52:20 +0400</pubDate>
+      
+      <guid>http://foryun.com.cn/record/hogo/</guid>
+      <description>创建新文件 在根目录执行下面命令 1 hugo new post/first.md 本地测试启动命令 1 hugo server --theme=even --buildDrafts 部署命令 1 hugo --theme=even --baseUrl=&amp;#34;http://foryun.com.cn/&amp;#34;</description>
+    </item>
+    
+  </channel>
+</rss>

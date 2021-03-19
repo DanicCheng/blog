@@ -55,6 +55,11 @@ copyright = ""            # default: author.name ↓        # 默认为下面配
   weight = 50
   identifier = "diary"
   url = "/diary/"
+[[menu.main]]
+  name = "Record"
+  weight = 60
+  identifier = "record"
+  url = "/record/"
 
 [params]
   version = "4.x"           # Used to give a friendly message when you have an incompatible update

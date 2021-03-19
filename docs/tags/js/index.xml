@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>js on Foryun - Share</title>
+    <link>http://foryun.com.cn/tags/js/</link>
+    <description>Recent content in js on Foryun - Share</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Thu, 18 Mar 2021 10:22:59 +0400</lastBuildDate><atom:link href="http://foryun.com.cn/tags/js/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>js的encodeURIComponent导致中文乱码的问题</title>
+      <link>http://foryun.com.cn/post/share/js%E7%9A%84encodeuricomponent%E5%AF%BC%E8%87%B4%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E7%9A%84%E9%97%AE%E9%A2%98/</link>
+      <pubDate>Thu, 18 Mar 2021 10:22:59 +0400</pubDate>
+      
+      <guid>http://foryun.com.cn/post/share/js%E7%9A%84encodeuricomponent%E5%AF%BC%E8%87%B4%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E7%9A%84%E9%97%AE%E9%A2%98/</guid>
+      <description>问题描述 服务端用的pomelo，对json进行了encodeURIComponent处理，客户端用的C#，进行decode操作后，中文乱码，</description>
+    </item>
+    
+  </channel>
+</rss>

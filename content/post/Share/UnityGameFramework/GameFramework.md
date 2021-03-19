@@ -31,4 +31,8 @@ author: "Danic"
   - 针对LinkedList的封装，设置了链表的起点和终点，只能在起点和终点这个范围内取值。
 - GameFrameworkModule
   - 模块的抽象基类，定义了轮询的优先级，轮询方法，关闭清理方法。
+- GameFrameworkMultiDictionary
+  - 把字典的值，改成了链表
+- GameFrameworkSerializer
+  - 序列化，反序列化，取值
 
