@@ -1,0 +1,1 @@
+{"__type__":"cc.AnimationClip","_name":"effectLine","_duration":1,"curveData":{"props":{"opacity":[{"frame":0,"value":88},{"frame":0.25,"value":255},{"frame":0.75,"value":0}]},"paths":{},"comps":{"cc.Sprite":{}}},"events":[{"frame":0,"func":"playPartical","params":[]},{"frame":1,"func":"stopPartical","params":[]}]}

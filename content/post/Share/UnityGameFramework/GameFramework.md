@@ -8,6 +8,8 @@ categories: ["UnityGameFramework"]
 author: "Danic"
 ---
 
+
+
 ## Base
 
 > GameFramework/Base
@@ -35,4 +37,15 @@ author: "Danic"
   - 把字典的值，改成了链表
 - GameFrameworkSerializer
   - 序列化，反序列化，取值
+
+> GameFramework/Base/DataProvider
+
+- DataProvider
+  - 数据提供者，
+
+
+
+## Helper
+
+框架中有很多辅助器Helper，一般都定义了一系列接口，用于处理容易变化的逻辑。比如资源加载完成后的逻辑处理。框架把资源的二进制数据加载出来后，就交给辅助器进行解析，这样，客户端就可以根据自己的需求，实现资源的解析方式。
 
