@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>js的encodeURIComponent导致中文乱码的问题 - Foryun - Share</title>
+  <title>观察者模式与发布订阅模式 - Foryun - Share</title>
   <meta name="renderer" content="webkit" />
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
 
@@ -16,7 +16,7 @@
 <meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
 
 
-<meta name="author" content="Danic" /><meta name="description" content="问题描述 服务端用的pomelo，对json进行了encodeURIComponent处理，客户端用的C#，进行decode操作后，中文乱码，" /><meta name="keywords" content="Blog, IT, Share, Record" />
+<meta name="author" content="Danic" /><meta name="description" content="今天看github源码时，突然引发一个疑问，什么时候用观察者，什么时候用发布订阅。 有些地方可能会把观察者模式等同于发布订阅模式。这里会有点区" /><meta name="keywords" content="Blog, IT, Share, Record" />
 
 
 
@@ -26,7 +26,7 @@
 <meta name="generator" content="Hugo 0.81.0 with theme even" />
 
 
-<link rel="canonical" href="http://foryun.com.cn/post/share/js%E7%9A%84encodeuricomponent%E5%AF%BC%E8%87%B4%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E7%9A%84%E9%97%AE%E9%A2%98/" />
+<link rel="canonical" href="http://foryun.com.cn/post/share/%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%8F%91%E5%B8%83%E8%AE%A2%E9%98%85%E6%A8%A1%E5%BC%8F/" />
 <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -39,20 +39,20 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
 
 
-<meta property="og:title" content="js的encodeURIComponent导致中文乱码的问题" />
-<meta property="og:description" content="问题描述 服务端用的pomelo，对json进行了encodeURIComponent处理，客户端用的C#，进行decode操作后，中文乱码，" />
+<meta property="og:title" content="观察者模式与发布订阅模式" />
+<meta property="og:description" content="今天看github源码时，突然引发一个疑问，什么时候用观察者，什么时候用发布订阅。 有些地方可能会把观察者模式等同于发布订阅模式。这里会有点区" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://foryun.com.cn/post/share/js%E7%9A%84encodeuricomponent%E5%AF%BC%E8%87%B4%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E7%9A%84%E9%97%AE%E9%A2%98/" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2021-03-18T10:22:59&#43;04:00" />
-<meta property="article:modified_time" content="2021-03-18T10:22:59&#43;04:00" />
+<meta property="og:url" content="http://foryun.com.cn/post/share/%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%8F%91%E5%B8%83%E8%AE%A2%E9%98%85%E6%A8%A1%E5%BC%8F/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2021-03-19T16:53:02&#43;04:00" />
+<meta property="article:modified_time" content="2021-03-19T16:53:02&#43;04:00" />
 
-<meta itemprop="name" content="js的encodeURIComponent导致中文乱码的问题">
-<meta itemprop="description" content="问题描述 服务端用的pomelo，对json进行了encodeURIComponent处理，客户端用的C#，进行decode操作后，中文乱码，"><meta itemprop="datePublished" content="2021-03-18T10:22:59&#43;04:00" />
-<meta itemprop="dateModified" content="2021-03-18T10:22:59&#43;04:00" />
-<meta itemprop="wordCount" content="240">
-<meta itemprop="keywords" content="encodeURIComponent,js,中文乱码," /><meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="js的encodeURIComponent导致中文乱码的问题"/>
-<meta name="twitter:description" content="问题描述 服务端用的pomelo，对json进行了encodeURIComponent处理，客户端用的C#，进行decode操作后，中文乱码，"/>
+<meta itemprop="name" content="观察者模式与发布订阅模式">
+<meta itemprop="description" content="今天看github源码时，突然引发一个疑问，什么时候用观察者，什么时候用发布订阅。 有些地方可能会把观察者模式等同于发布订阅模式。这里会有点区"><meta itemprop="datePublished" content="2021-03-19T16:53:02&#43;04:00" />
+<meta itemprop="dateModified" content="2021-03-19T16:53:02&#43;04:00" />
+<meta itemprop="wordCount" content="487">
+<meta itemprop="keywords" content="观察者模式,发布订阅模式," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="观察者模式与发布订阅模式"/>
+<meta name="twitter:description" content="今天看github源码时，突然引发一个疑问，什么时候用观察者，什么时候用发布订阅。 有些地方可能会把观察者模式等同于发布订阅模式。这里会有点区"/>
 
 <!--[if lte IE 9]>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
@@ -133,14 +133,14 @@
           <article class="post">
     
     <header class="post-header">
-      <h1 class="post-title">js的encodeURIComponent导致中文乱码的问题</h1>
+      <h1 class="post-title">观察者模式与发布订阅模式</h1>
 
       <div class="post-meta">
-        <span class="post-time"> 2021-03-18 </span>
+        <span class="post-time"> 2021-03-19 </span>
         <div class="post-category">
             <a href="/categories/share/"> Share </a>
             </div>
-          <span class="more-meta"> 约 240 字 </span>
+          <span class="more-meta"> 约 487 字 </span>
           <span class="more-meta"> 预计阅读 1 分钟 </span>
         <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 次阅读 </span>
       </div>
@@ -149,27 +149,25 @@
     <div class="post-toc" id="post-toc">
   <h2 class="post-toc-title">文章目录</h2>
   <div class="post-toc-content always-active">
-    <nav id="TableOfContents">
-  <ul>
-    <li>
-      <ul>
-        <li><a href="#问题描述">问题描述</a></li>
-        <li><a href="#解决方案">解决方案</a></li>
-      </ul>
-    </li>
-  </ul>
-</nav>
+    <nav id="TableOfContents"></nav>
   </div>
 </div>
     <div class="post-content">
-      <h2 id="问题描述">问题描述</h2>
+      <p>今天看github源码时，突然引发一个疑问，什么时候用观察者，什么时候用发布订阅。</p>
+<p>有些地方可能会把观察者模式等同于发布订阅模式。这里会有点区别。</p>
 <ul>
-<li>服务端用的pomelo，对json进行了encodeURIComponent处理，客户端用的C#，进行decode操作后，中文乱码，找了很多方法，都没有解决。目前认为是encodeURIComponent对其他语言不友好，估计是其他语言的解析方式不一样，encodeURIComponent后，所有字符都会增加%25，中文解析的时候，%25被当做中文字符处理了。所以中文全是乱码。</li>
-</ul>
-<h2 id="解决方案">解决方案</h2>
+<li>观察者模式
 <ul>
-<li>目前没有更好的解决方案，服务端直接去掉encodeURIComponent这层逻辑。</li>
+<li>类似C#里面的Event，Subject（主题）对应的直接是Observer（观察者）</li>
 </ul>
+</li>
+<li>发布订阅模式
+<ul>
+<li>相对于观察者模式，Publisher（发布者）对应的是Subject，Subscriber（订阅者）对应Observer，多了中间层Broker（经纪人）。通俗点就是我们常写的消息管理器，把消息都保存在消息队列里。发布者只需告诉Broker，我要发的消息，topic是AAA；订阅者只需告诉Broker，我要订阅topic是AAA的消息；当Broker收到发布者发过来消息，并且topic是AAA时，就会把消息推送给订阅了topic是AAA的订阅者</li>
+</ul>
+</li>
+</ul>
+<p>看了github上的某些源码，总结是，系统框架内部的，简单的消息回调，用观察者。需要提供给系统外部的消息，用发布订阅。比如，框架的资源加载逻辑，资源加载完毕的消息，通过观察者直接回调给对应的处理逻辑。框架针对网络的封装，网络消息发送后得到的返回，通过发布订阅，进行后续处理。</p>
 
     </div>
 
@@ -181,7 +179,7 @@
   <p class="copyright-item">
     <span class="item-title">上次更新</span>
     <span class="item-content">
-        2021-03-18
+        2021-03-19
         
     </span>
   </p>
@@ -190,18 +188,13 @@
 </div>
 <footer class="post-footer">
       <div class="post-tags">
-          <a href="/tags/encodeuricomponent/">encodeURIComponent</a>
-          <a href="/tags/js/">js</a>
-          <a href="/tags/%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81/">中文乱码</a>
+          <a href="/tags/%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F/">观察者模式</a>
+          <a href="/tags/%E5%8F%91%E5%B8%83%E8%AE%A2%E9%98%85%E6%A8%A1%E5%BC%8F/">发布订阅模式</a>
           </div>
       <nav class="post-nav">
-        <a class="prev" href="/post/share/%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%8F%91%E5%B8%83%E8%AE%A2%E9%98%85%E6%A8%A1%E5%BC%8F/">
-            <i class="iconfont icon-left"></i>
-            <span class="prev-text nav-default">观察者模式与发布订阅模式</span>
-            <span class="prev-text nav-mobile">上一篇</span>
-          </a>
-        <a class="next" href="/post/share/%E7%94%A8zlib%E5%8E%8B%E7%BC%A9%E6%88%96%E8%A7%A3%E5%8E%8B%E7%BC%A9%E5%AD%97%E8%8A%82%E6%95%B0%E7%BB%84/">
-            <span class="next-text nav-default">C#用Zlib压缩或解压缩字节数组</span>
+        
+        <a class="next" href="/post/share/js%E7%9A%84encodeuricomponent%E5%AF%BC%E8%87%B4%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E7%9A%84%E9%97%AE%E9%A2%98/">
+            <span class="next-text nav-default">js的encodeURIComponent导致中文乱码的问题</span>
             <span class="next-text nav-mobile">下一篇</span>
             <i class="iconfont icon-right"></i>
           </a>
@@ -211,7 +204,7 @@
         </div>
         
 
-  <span id="/post/share/js%E7%9A%84encodeuricomponent%E5%AF%BC%E8%87%B4%E4%B8%AD%E6%96%87%E4%B9%B1%E7%A0%81%E7%9A%84%E9%97%AE%E9%A2%98/" class="leancloud_visitors" data-flag-title="js的encodeURIComponent导致中文乱码的问题">
+  <span id="/post/share/%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%8F%91%E5%B8%83%E8%AE%A2%E9%98%85%E6%A8%A1%E5%BC%8F/" class="leancloud_visitors" data-flag-title="观察者模式与发布订阅模式">
 		<span class="post-meta-item-text">文章阅读量 </span>
 		<span class="leancloud-visitors-count">0</span>
 		<p></p>

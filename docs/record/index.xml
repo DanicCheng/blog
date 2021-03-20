@@ -6,7 +6,16 @@
     <description>Recent content in Records on Foryun - Share</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 19 Mar 2021 10:56:24 +0400</lastBuildDate><atom:link href="http://foryun.com.cn/record/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 19 Mar 2021 15:51:55 +0400</lastBuildDate><atom:link href="http://foryun.com.cn/record/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>名词解释</title>
+      <link>http://foryun.com.cn/record/%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/</link>
+      <pubDate>Fri, 19 Mar 2021 15:51:55 +0400</pubDate>
+      
+      <guid>http://foryun.com.cn/record/%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/</guid>
+      <description>MSDN MSDN 的全称是 Microsoft Developer Network。这是微软公司面向软件开发者的一种信息服务。MSDN 实际上是一个以 Visual Studio 和 Windows 平台为核心整合的开发虚拟社区，包括技</description>
+    </item>
+    
     <item>
       <title>Git</title>
       <link>http://foryun.com.cn/record/git/</link>

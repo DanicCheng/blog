@@ -6,7 +6,34 @@
     <description>Recent content on Foryun - Share</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 19 Mar 2021 10:56:24 +0400</lastBuildDate><atom:link href="http://foryun.com.cn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Mar 2021 09:04:00 +0400</lastBuildDate><atom:link href="http://foryun.com.cn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021-3-20</title>
+      <link>http://foryun.com.cn/diary/2021-3-20/</link>
+      <pubDate>Sat, 20 Mar 2021 09:04:00 +0400</pubDate>
+      
+      <guid>http://foryun.com.cn/diary/2021-3-20/</guid>
+      <description>先来复盘一下昨天的状态。 六点半起来，先跑半个小时步。 七点二十分才下去跑步，跑了十分钟。 七点回宿舍洗澡，洗漱。 七点半回宿舍洗澡，洗漱，洗衣服，</description>
+    </item>
+    
+    <item>
+      <title>观察者模式与发布订阅模式</title>
+      <link>http://foryun.com.cn/post/share/%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%8F%91%E5%B8%83%E8%AE%A2%E9%98%85%E6%A8%A1%E5%BC%8F/</link>
+      <pubDate>Fri, 19 Mar 2021 16:53:02 +0400</pubDate>
+      
+      <guid>http://foryun.com.cn/post/share/%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%8F%91%E5%B8%83%E8%AE%A2%E9%98%85%E6%A8%A1%E5%BC%8F/</guid>
+      <description>今天看github源码时，突然引发一个疑问，什么时候用观察者，什么时候用发布订阅。 有些地方可能会把观察者模式等同于发布订阅模式。这里会有点区</description>
+    </item>
+    
+    <item>
+      <title>名词解释</title>
+      <link>http://foryun.com.cn/record/%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/</link>
+      <pubDate>Fri, 19 Mar 2021 15:51:55 +0400</pubDate>
+      
+      <guid>http://foryun.com.cn/record/%E5%90%8D%E8%AF%8D%E8%A7%A3%E9%87%8A/</guid>
+      <description>MSDN MSDN 的全称是 Microsoft Developer Network。这是微软公司面向软件开发者的一种信息服务。MSDN 实际上是一个以 Visual Studio 和 Windows 平台为核心整合的开发虚拟社区，包括技</description>
+    </item>
+    
     <item>
       <title>Git</title>
       <link>http://foryun.com.cn/record/git/</link>

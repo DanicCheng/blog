@@ -1,0 +1,1 @@
+hugo --theme=even --baseUrl="http://foryun.com.cn/"
