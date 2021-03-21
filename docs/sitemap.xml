@@ -2,57 +2,92 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://foryun.com.cn/diary/2021-3-20/</loc>
-    <lastmod>2021-03-20T09:04:00+04:00</lastmod>
+    <loc>http://foryun.com.cn/diary/2021-3-21/</loc>
+    <lastmod>2021-03-21T08:49:52+04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://foryun.com.cn/categories/</loc>
-    <lastmod>2021-03-20T09:04:00+04:00</lastmod>
+    <lastmod>2021-03-21T08:49:52+04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://foryun.com.cn/tags/daily/</loc>
-    <lastmod>2021-03-20T09:04:00+04:00</lastmod>
+    <lastmod>2021-03-21T08:49:52+04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://foryun.com.cn/diary/</loc>
-    <lastmod>2021-03-20T09:04:00+04:00</lastmod>
+    <lastmod>2021-03-21T08:49:52+04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://foryun.com.cn/categories/diary/</loc>
-    <lastmod>2021-03-20T09:04:00+04:00</lastmod>
+    <lastmod>2021-03-21T08:49:52+04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://foryun.com.cn/</loc>
-    <lastmod>2021-03-20T09:04:00+04:00</lastmod>
+    <lastmod>2021-03-21T08:49:52+04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://foryun.com.cn/tags/</loc>
-    <lastmod>2021-03-20T09:04:00+04:00</lastmod>
+    <lastmod>2021-03-21T08:49:52+04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://foryun.com.cn/tags/c#/</loc>
+    <lastmod>2021-03-20T14:16:38+04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://foryun.com.cn/categories/csharp/</loc>
+    <lastmod>2021-03-20T14:16:38+04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://foryun.com.cn/post/csharp/csharp%E4%B8%8D%E5%B8%B8%E4%BD%BF%E7%94%A8%E7%9A%84%E6%93%8D%E4%BD%9C/</loc>
+    <lastmod>2021-03-20T14:16:38+04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://foryun.com.cn/post/</loc>
-    <lastmod>2021-03-19T16:53:02+04:00</lastmod>
+    <lastmod>2021-03-20T14:16:38+04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://foryun.com.cn/post/csharp/csharp-%E9%97%AE%E5%8F%B7%E5%92%8C2%E4%B8%AA%E9%97%AE%E5%8F%B7%E7%9A%84%E7%94%A8%E6%B3%95/</loc>
+    <lastmod>2021-03-20T10:36:30+04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://foryun.com.cn/diary/2021-3-20/</loc>
+    <lastmod>2021-03-20T09:04:00+04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -191,28 +226,28 @@
   </url>
   
   <url>
-    <loc>http://foryun.com.cn/post/share/unitygameframework/gameframework/</loc>
-    <lastmod>2021-03-14T11:56:46+04:00</lastmod>
+    <loc>http://foryun.com.cn/post/unitygameframework/gameframework/</loc>
+    <lastmod>2021-03-20T10:10:56+04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://foryun.com.cn/tags/unitygameframework/</loc>
-    <lastmod>2021-03-14T11:56:46+04:00</lastmod>
+    <lastmod>2021-03-20T10:10:56+04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
     <loc>http://foryun.com.cn/categories/unitygameframework/</loc>
-    <lastmod>2021-03-14T11:56:46+04:00</lastmod>
+    <lastmod>2021-03-20T10:10:56+04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://foryun.com.cn/post/share/unitygameframework/unitygameframework/</loc>
+    <loc>http://foryun.com.cn/post/unitygameframework/unitygameframework/</loc>
     <lastmod>2021-03-14T11:56:46+04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -310,14 +345,14 @@
   </url>
   
   <url>
-    <loc>http://foryun.com.cn/categories/record/</loc>
+    <loc>http://foryun.com.cn/tags/record/</loc>
     <lastmod>2020-09-29T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://foryun.com.cn/tags/record/</loc>
+    <loc>http://foryun.com.cn/categories/record/</loc>
     <lastmod>2020-09-29T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -331,7 +366,7 @@
   </url>
   
   <url>
-    <loc>http://foryun.com.cn/post/share/docker/docker%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB%E6%80%BB%E7%BB%93/</loc>
+    <loc>http://foryun.com.cn/post/docker/docker%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB%E6%80%BB%E7%BB%93/</loc>
     <lastmod>2020-09-26T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -352,28 +387,28 @@
   </url>
   
   <url>
-    <loc>http://foryun.com.cn/post/share/docker/docker%E4%BD%BF%E7%94%A8%E5%88%86%E4%BA%AB/</loc>
+    <loc>http://foryun.com.cn/post/docker/docker%E4%BD%BF%E7%94%A8%E5%88%86%E4%BA%AB/</loc>
     <lastmod>2020-09-25T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://foryun.com.cn/post/share/docker/dockerfile/</loc>
+    <loc>http://foryun.com.cn/post/docker/dockerfile/</loc>
     <lastmod>2020-09-24T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://foryun.com.cn/post/share/docker/docker-compose/</loc>
+    <loc>http://foryun.com.cn/post/docker/docker-compose/</loc>
     <lastmod>2020-09-23T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
   
   <url>
-    <loc>http://foryun.com.cn/post/share/docker/docker%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
+    <loc>http://foryun.com.cn/post/docker/docker%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</loc>
     <lastmod>2020-09-22T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -422,7 +457,7 @@
   </url>
   
   <url>
-    <loc>http://foryun.com.cn/post/share/vue/vue%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</loc>
+    <loc>http://foryun.com.cn/post/vue/vue%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</loc>
     <lastmod>2020-08-02T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -443,7 +478,7 @@
   </url>
   
   <url>
-    <loc>http://foryun.com.cn/post/share/vue/vuepress%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc>
+    <loc>http://foryun.com.cn/post/vue/vuepress%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</loc>
     <lastmod>2020-08-01T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>

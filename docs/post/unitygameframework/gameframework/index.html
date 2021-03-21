@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>GameFramework - Foryun - Share</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="Danic" /><meta name="description" content="Base GameFramework/Base GameFrameworkEntry 这是个静态类，是游戏框架的入口。 Update、Shutdown方法，让游戏框架的模块拥有轮询和关闭方法。 获取模块，在GameFrame" /><meta name="keywords" content="Blog, IT, Share, Record" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.81.0 with theme even" />
+
+
+<link rel="canonical" href="http://foryun.com.cn/post/unitygameframework/gameframework/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<link href="/sass/main.min.af7fd1da18d66c2b017df5b4cae508ef44cfcac3fb4c7c7a327fe4f4f9e28b08.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+<meta property="og:title" content="GameFramework" />
+<meta property="og:description" content="Base GameFramework/Base GameFrameworkEntry 这是个静态类，是游戏框架的入口。 Update、Shutdown方法，让游戏框架的模块拥有轮询和关闭方法。 获取模块，在GameFrame" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://foryun.com.cn/post/unitygameframework/gameframework/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2021-03-14T11:50:46&#43;04:00" />
+<meta property="article:modified_time" content="2021-03-20T10:10:56&#43;04:00" />
+
+<meta itemprop="name" content="GameFramework">
+<meta itemprop="description" content="Base GameFramework/Base GameFrameworkEntry 这是个静态类，是游戏框架的入口。 Update、Shutdown方法，让游戏框架的模块拥有轮询和关闭方法。 获取模块，在GameFrame"><meta itemprop="datePublished" content="2021-03-14T11:50:46&#43;04:00" />
+<meta itemprop="dateModified" content="2021-03-20T10:10:56&#43;04:00" />
+<meta itemprop="wordCount" content="1498">
+<meta itemprop="keywords" content="UnityGameFramework," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="GameFramework"/>
+<meta name="twitter:description" content="Base GameFramework/Base GameFrameworkEntry 这是个静态类，是游戏框架的入口。 Update、Shutdown方法，让游戏框架的模块拥有轮询和关闭方法。 获取模块，在GameFrame"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Foryun</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a><a href="/diary/">
+        <li class="mobile-menu-item">Diary</li>
+      </a><a href="/record/">
+        <li class="mobile-menu-item">Record</li>
+      </a>
+  </ul>
+
+  
+
+
+</nav>
+
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">Foryun</a>
+</div>
+
+
+
+
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">Categories</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/diary/">Diary</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/record/">Record</a>
+      </li>
+  </ul>
+</nav>
+
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">GameFramework</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2021-03-14 </span>
+        <div class="post-category">
+            <a href="/categories/unitygameframework/"> UnityGameFramework </a>
+            </div>
+          <span class="more-meta"> 约 1498 字 </span>
+          <span class="more-meta"> 预计阅读 3 分钟 </span>
+        <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 次阅读 </span>
+      </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">文章目录</h2>
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#base">Base</a></li>
+        <li><a href="#event">Event</a></li>
+        <li><a href="#helper">Helper</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</div>
+    <div class="post-content">
+      <h2 id="base">Base</h2>
+<blockquote>
+<p>GameFramework/Base</p>
+</blockquote>
+<ul>
+<li>GameFrameworkEntry
+<ul>
+<li>这是个静态类，是游戏框架的入口。</li>
+<li>Update、Shutdown方法，让游戏框架的模块拥有轮询和关闭方法。</li>
+<li>获取模块，在GameFramework里面框架的组成单元叫模块，在UnityGameFramework里面的组成单元叫组件。模块跟Unity没有关系，组件跟Unity有直接关系。</li>
+<li>如果获取组件失败，则创建，<code>Activator.CreateInstance(moduleType)</code></li>
+</ul>
+</li>
+<li>GameFrameworkAction
+<ul>
+<li>这个脚本定义了框架用到的不带返回值委托，最多支持16个参数。</li>
+</ul>
+</li>
+<li>GameFrameworkEventArgs
+<ul>
+<li>框架事件参数类</li>
+</ul>
+</li>
+<li>GameFrameworkException
+<ul>
+<li>框架异常处理类</li>
+</ul>
+</li>
+<li>GameFrameworkFunc
+<ul>
+<li>这个脚本定义了框架用到的带返回值的委托，最多支持16个参数。</li>
+</ul>
+</li>
+<li>GameFrameworkLinkedList
+<ul>
+<li>针对LinkedList的封装，增加了缓存队列，减少GC次数，重复利用节点。</li>
+</ul>
+</li>
+<li>GameFrameworkLinkedListRange
+<ul>
+<li>针对LinkedList的封装，设置了链表的起点和终点，只能在起点和终点这个范围内取值。</li>
+</ul>
+</li>
+<li>GameFrameworkModule
+<ul>
+<li>模块的抽象基类，定义了轮询的优先级，轮询方法，关闭清理方法。</li>
+</ul>
+</li>
+<li>GameFrameworkMultiDictionary
+<ul>
+<li>把字典的值，改成了链表</li>
+</ul>
+</li>
+<li>GameFrameworkSerializer
+<ul>
+<li>序列化，反序列化，取值</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>GameFramework/Base/DataProvider</p>
+</blockquote>
+<ul>
+<li>DataProvider
+<ul>
+<li>数据提供者，提供了数据读取成功、失败、依赖读取、更新回调，提供读取资源、读取二进制数据回调，数据的持有者，资源管理器（主要用来加载资源），辅助器（主要用来解析资源）</li>
+</ul>
+</li>
+<li>DataProviderCreator
+<ul>
+<li>数据提供者创建器，创建数据提供者，并且提供数据缓存区的操作。</li>
+</ul>
+</li>
+<li>IDataProvider
+<ul>
+<li>数据提供者接口</li>
+</ul>
+</li>
+<li>IDataProviderHelper
+<ul>
+<li>辅助器接口</li>
+</ul>
+</li>
+<li>ReadDataDependencyAssetEventArgs、ReadDataFailureEventArgs、ReadDataSuccessEventArgs、ReadDataUpdateEventArgs
+<ul>
+<li>对应事件回调的参数。</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>GameFramework/Base/DataStruct</p>
+</blockquote>
+<ul>
+<li>TypeNamePair
+<ul>
+<li>类型和名称的组合值，用来做各种字典的key</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>GameFramework/Base/EventPool</p>
+</blockquote>
+<ul>
+<li>BaseEventArgs
+<ul>
+<li>事件参数基类</li>
+</ul>
+</li>
+<li>EventPool
+<ul>
+<li>事件池，提供了事件的订阅，反订阅，触发（抛出事件，这个操作是线程安全的，即使不在主线程中抛出，也可保证在主线程中回调事件处理函数，但事件会在抛出后的下一帧分发。），立即触发（抛出事件立即模式，这个操作不是线程安全的，事件会立刻分发。）</li>
+</ul>
+</li>
+<li>EventPoolMode
+<ul>
+<li>事件池模式。
+<ul>
+<li>默认事件池模式，即必须存在有且只有一个事件处理函数。</li>
+<li>允许不存在事件处理函数。</li>
+<li>允许存在多个事件处理函数。</li>
+<li>允许存在重复的事件处理函数。</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>GameFramework/Base/Log</p>
+</blockquote>
+<ul>
+<li>GameFrameworkLog
+<ul>
+<li>常规的日志类，具体的日志实现，由辅助器负责。</li>
+</ul>
+</li>
+<li>GameFrameworkLogLevel
+<ul>
+<li>游戏框架日志等级。
+<ul>
+<li>调试</li>
+<li>信息</li>
+<li>警告</li>
+<li>错误</li>
+<li>严重错误</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<blockquote>
+<p>GameFramework/Base/ReferencePool</p>
+</blockquote>
+<ul>
+<li>ReferencePool
+<ul>
+<li>引用池。这里有几个概念：
+<ul>
+<li>UnusedReferenceCount，没有使用的引用数，这里是指引用队列里面还有多少个引用。</li>
+<li>UsingReferenceCount，使用引用数，是指这个引用正在使用的次数，Acquire的时候加1，Release的时候减1.</li>
+<li>AcquireReferenceCount，获取引用数，是指调用Acquire多少次，也就是这个引用被获取的多少次。</li>
+<li>ReleaseReferenceCount，释放引用数，是指调用Release多少次，也就是这个引用被释放了多少次。</li>
+<li>AddReferenceCount，添加引用数，是指调用Add多少次，也就是这个引用被增加了几次，增加是只加不用。</li>
+<li>RemoveReferenceCount，移除引用数，是只调用Remove多少次，也就是这个引用被移除了几次，移除是只移除不释放。</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>ReferencePoolInfo
+<ul>
+<li>引用池信息。在调用GetAllReferencePoolInfos，返回引用信息的时候使用。</li>
+</ul>
+</li>
+</ul>
+<h2 id="event">Event</h2>
+<blockquote>
+<p>GameFramework/Event</p>
+</blockquote>
+<ul>
+<li>EventManager
+<ul>
+<li>事件管理器，核心就是调用了事件池，作为游戏框架模块，多了一个优先级。</li>
+</ul>
+</li>
+<li>GameEventArgs
+<ul>
+<li>游戏事件基类</li>
+</ul>
+</li>
+<li>IEventManager
+<ul>
+<li>事件管理器接口</li>
+</ul>
+</li>
+</ul>
+<h2 id="helper">Helper</h2>
+<p>框架中有很多辅助器Helper，一般都定义了一系列接口，用于处理容易变化的逻辑。比如资源加载完成后的逻辑处理。框架把资源的二进制数据加载出来后，就交给辅助器进行解析，这样，客户端就可以根据自己的需求，实现资源的解析方式。</p>
+
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">Danic</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">
+        2021-03-20
+        
+    </span>
+  </p>
+  
+  
+</div>
+<footer class="post-footer">
+      <div class="post-tags">
+          <a href="/tags/unitygameframework/">UnityGameFramework</a>
+          </div>
+      <nav class="post-nav">
+        <a class="prev" href="/post/share/uri%E7%BC%96%E7%A0%81%E8%AF%A6%E8%A7%A3/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">JavaScript及C# URI编码详解</span>
+            <span class="prev-text nav-mobile">上一篇</span>
+          </a>
+        <a class="next" href="/post/unitygameframework/unitygameframework/">
+            <span class="next-text nav-default">UnityGameFramework</span>
+            <span class="next-text nav-mobile">下一篇</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+  <span id="/post/unitygameframework/gameframework/" class="leancloud_visitors" data-flag-title="GameFramework">
+		<span class="post-meta-item-text">文章阅读量 </span>
+		<span class="leancloud-visitors-count">0</span>
+		<p></p>
+	  </span>
+  <div id="vcomments"></div>
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+  <script type="text/javascript">
+    new Valine({
+        el: '#vcomments' ,
+        appId: 'insXINA0D2ccQdcEfEcMSjgn-gzGzoHsz',
+        appKey: 'HEAEkloDNn3aFg4Yr1W4iGM3',
+        notify:  false ,
+        verify:  false ,
+        avatar:'mm',
+        placeholder: '说点什么吧...',
+        visitor:  true 
+    });
+  </script>
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:1186976350@qq.com" class="iconfont icon-email" title="email"></a>
+      <a href="https://github.com/DanicCheng" class="iconfont icon-github" title="github"></a>
+      <a href="https://space.bilibili.com/2920221?spm_id_from=333.788.b_765f7570696e666f.2" class="iconfont icon-bilibili" title="bilibili"></a>
+  
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    由 <a class="hexo-link" href="https://gohugo.io">Hugo</a> 强力驱动
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    主题 - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  <div class="busuanzi-footer">
+    <span id="busuanzi_container_site_pv"> 本站总访问量 <span id="busuanzi_value_site_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 次 </span>
+      <span class="division">|</span>
+    <span id="busuanzi_container_site_uv"> 本站总访客数 <span id="busuanzi_value_site_uv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 人 </span>
+  </div>
+
+  <span class="copyright-year">
+    &copy; 
+    2017 - 
+    2021<span class="heart"><i class="iconfont icon-heart"></i></span><span>Foryun</span>
+  </span>
+
+  <span class="beian">
+    
+    备案号：<a href="https://beian.miit.gov.cn" target="_blank">粤ICP备18045119号</a>
+    
+  </span>
+
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+
+
+
+<script type="text/javascript" src="/js/main.min.c99b103c33d1539acf3025e1913697534542c4a5aa5af0ccc20475ed2863603b.js"></script>
+
+<script id="baidu_analytics">
+  var _hmt = _hmt || [];
+  (function() {
+    if (window.location.hostname === 'localhost') return;
+    var hm = document.createElement("script"); hm.async = true;
+    hm.src = "https://hm.baidu.com/hm.js?57ed19d6fdd95893edd119b86ac49dab";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>
+
+
+
+
+
+
+</body>
+</html>

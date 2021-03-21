@@ -9,19 +9,19 @@
     <lastBuildDate>Sun, 14 Mar 2021 11:50:46 +0400</lastBuildDate><atom:link href="http://foryun.com.cn/categories/unitygameframework/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>GameFramework</title>
-      <link>http://foryun.com.cn/post/share/unitygameframework/gameframework/</link>
+      <link>http://foryun.com.cn/post/unitygameframework/gameframework/</link>
       <pubDate>Sun, 14 Mar 2021 11:50:46 +0400</pubDate>
       
-      <guid>http://foryun.com.cn/post/share/unitygameframework/gameframework/</guid>
+      <guid>http://foryun.com.cn/post/unitygameframework/gameframework/</guid>
       <description>Base GameFramework/Base GameFrameworkEntry 这是个静态类，是游戏框架的入口。 Update、Shutdown方法，让游戏框架的模块拥有轮询和关闭方法。 获取模块，在GameFrame</description>
     </item>
     
     <item>
       <title>UnityGameFramework</title>
-      <link>http://foryun.com.cn/post/share/unitygameframework/unitygameframework/</link>
+      <link>http://foryun.com.cn/post/unitygameframework/unitygameframework/</link>
       <pubDate>Sun, 14 Mar 2021 09:55:41 +0400</pubDate>
       
-      <guid>http://foryun.com.cn/post/share/unitygameframework/unitygameframework/</guid>
+      <guid>http://foryun.com.cn/post/unitygameframework/unitygameframework/</guid>
       <description>Base UnityGameFramework/Scripts/Runtime/Base ShutdownType 关闭游戏框架类型：仅关闭游戏框架、关闭游戏框架并重启游戏、关闭游戏框架并退出游戏。 GameFrameworkComponent 针对MonoBehaviour进行二次封装，这是个</description>
     </item>
     

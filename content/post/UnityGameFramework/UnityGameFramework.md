@@ -57,3 +57,7 @@ author: "Danic"
   - 关闭方法，调用baseComponent的关闭方法，根据ShutdownType来决定是重启初始场景，还是退出程序。
   - 注册组件方法
 
+## Event
+
+- EventComponent
+  - 事件组件，核心就是调用了一下EventManager。

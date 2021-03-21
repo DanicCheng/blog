@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>c# on Foryun - Share</title>
+    <link>http://foryun.com.cn/tags/c#/</link>
+    <description>Recent content in c# on Foryun - Share</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 20 Mar 2021 14:16:38 +0400</lastBuildDate><atom:link href="http://foryun.com.cn/tags/c#/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CSharp不常使用的操作</title>
+      <link>http://foryun.com.cn/post/csharp/csharp%E4%B8%8D%E5%B8%B8%E4%BD%BF%E7%94%A8%E7%9A%84%E6%93%8D%E4%BD%9C/</link>
+      <pubDate>Sat, 20 Mar 2021 14:16:38 +0400</pubDate>
+      
+      <guid>http://foryun.com.cn/post/csharp/csharp%E4%B8%8D%E5%B8%B8%E4%BD%BF%E7%94%A8%E7%9A%84%E6%93%8D%E4%BD%9C/</guid>
+      <description>Activator.CreateInstance 创建指定类型的实例化对象。他的重载方法很多，具体查看官方文档</description>
+    </item>
+    
+    <item>
+      <title>C#?、?? 问号和2个问号的用法</title>
+      <link>http://foryun.com.cn/post/csharp/csharp-%E9%97%AE%E5%8F%B7%E5%92%8C2%E4%B8%AA%E9%97%AE%E5%8F%B7%E7%9A%84%E7%94%A8%E6%B3%95/</link>
+      <pubDate>Sat, 20 Mar 2021 10:36:30 +0400</pubDate>
+      
+      <guid>http://foryun.com.cn/post/csharp/csharp-%E9%97%AE%E5%8F%B7%E5%92%8C2%E4%B8%AA%E9%97%AE%E5%8F%B7%E7%9A%84%E7%94%A8%E6%B3%95/</guid>
+      <description>?:单问号 1.定义数据类型可为空。可用于对int,double,bool等无法直接赋值为null的数据类型进行null的赋值 如这样定义2个变</description>
+    </item>
+    
+  </channel>
+</rss>

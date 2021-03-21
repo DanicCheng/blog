@@ -6,7 +6,25 @@
     <description>Recent content in Posts on Foryun - Share</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Fri, 19 Mar 2021 16:53:02 +0400</lastBuildDate><atom:link href="http://foryun.com.cn/post/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Mar 2021 14:16:38 +0400</lastBuildDate><atom:link href="http://foryun.com.cn/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>CSharp不常使用的操作</title>
+      <link>http://foryun.com.cn/post/csharp/csharp%E4%B8%8D%E5%B8%B8%E4%BD%BF%E7%94%A8%E7%9A%84%E6%93%8D%E4%BD%9C/</link>
+      <pubDate>Sat, 20 Mar 2021 14:16:38 +0400</pubDate>
+      
+      <guid>http://foryun.com.cn/post/csharp/csharp%E4%B8%8D%E5%B8%B8%E4%BD%BF%E7%94%A8%E7%9A%84%E6%93%8D%E4%BD%9C/</guid>
+      <description>Activator.CreateInstance 创建指定类型的实例化对象。他的重载方法很多，具体查看官方文档</description>
+    </item>
+    
+    <item>
+      <title>C#?、?? 问号和2个问号的用法</title>
+      <link>http://foryun.com.cn/post/csharp/csharp-%E9%97%AE%E5%8F%B7%E5%92%8C2%E4%B8%AA%E9%97%AE%E5%8F%B7%E7%9A%84%E7%94%A8%E6%B3%95/</link>
+      <pubDate>Sat, 20 Mar 2021 10:36:30 +0400</pubDate>
+      
+      <guid>http://foryun.com.cn/post/csharp/csharp-%E9%97%AE%E5%8F%B7%E5%92%8C2%E4%B8%AA%E9%97%AE%E5%8F%B7%E7%9A%84%E7%94%A8%E6%B3%95/</guid>
+      <description>?:单问号 1.定义数据类型可为空。可用于对int,double,bool等无法直接赋值为null的数据类型进行null的赋值 如这样定义2个变</description>
+    </item>
+    
     <item>
       <title>观察者模式与发布订阅模式</title>
       <link>http://foryun.com.cn/post/share/%E8%A7%82%E5%AF%9F%E8%80%85%E6%A8%A1%E5%BC%8F%E4%B8%8E%E5%8F%91%E5%B8%83%E8%AE%A2%E9%98%85%E6%A8%A1%E5%BC%8F/</link>
@@ -54,19 +72,19 @@
     
     <item>
       <title>GameFramework</title>
-      <link>http://foryun.com.cn/post/share/unitygameframework/gameframework/</link>
+      <link>http://foryun.com.cn/post/unitygameframework/gameframework/</link>
       <pubDate>Sun, 14 Mar 2021 11:50:46 +0400</pubDate>
       
-      <guid>http://foryun.com.cn/post/share/unitygameframework/gameframework/</guid>
+      <guid>http://foryun.com.cn/post/unitygameframework/gameframework/</guid>
       <description>Base GameFramework/Base GameFrameworkEntry 这是个静态类，是游戏框架的入口。 Update、Shutdown方法，让游戏框架的模块拥有轮询和关闭方法。 获取模块，在GameFrame</description>
     </item>
     
     <item>
       <title>UnityGameFramework</title>
-      <link>http://foryun.com.cn/post/share/unitygameframework/unitygameframework/</link>
+      <link>http://foryun.com.cn/post/unitygameframework/unitygameframework/</link>
       <pubDate>Sun, 14 Mar 2021 09:55:41 +0400</pubDate>
       
-      <guid>http://foryun.com.cn/post/share/unitygameframework/unitygameframework/</guid>
+      <guid>http://foryun.com.cn/post/unitygameframework/unitygameframework/</guid>
       <description>Base UnityGameFramework/Scripts/Runtime/Base ShutdownType 关闭游戏框架类型：仅关闭游戏框架、关闭游戏框架并重启游戏、关闭游戏框架并退出游戏。 GameFrameworkComponent 针对MonoBehaviour进行二次封装，这是个</description>
     </item>
     
@@ -117,46 +135,46 @@
     
     <item>
       <title>docker技术分享总结</title>
-      <link>http://foryun.com.cn/post/share/docker/docker%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB%E6%80%BB%E7%BB%93/</link>
+      <link>http://foryun.com.cn/post/docker/docker%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB%E6%80%BB%E7%BB%93/</link>
       <pubDate>Sat, 26 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://foryun.com.cn/post/share/docker/docker%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB%E6%80%BB%E7%BB%93/</guid>
+      <guid>http://foryun.com.cn/post/docker/docker%E6%8A%80%E6%9C%AF%E5%88%86%E4%BA%AB%E6%80%BB%E7%BB%93/</guid>
       <description>今天给项目组的小伙伴分享了一下docker的使用，感觉分享的过程和效果都不太理想。我发现主要有以下几个问题。 没有介绍技术背景，为什么要使用这</description>
     </item>
     
     <item>
       <title>docker使用分享</title>
-      <link>http://foryun.com.cn/post/share/docker/docker%E4%BD%BF%E7%94%A8%E5%88%86%E4%BA%AB/</link>
+      <link>http://foryun.com.cn/post/docker/docker%E4%BD%BF%E7%94%A8%E5%88%86%E4%BA%AB/</link>
       <pubDate>Fri, 25 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://foryun.com.cn/post/share/docker/docker%E4%BD%BF%E7%94%A8%E5%88%86%E4%BA%AB/</guid>
+      <guid>http://foryun.com.cn/post/docker/docker%E4%BD%BF%E7%94%A8%E5%88%86%E4%BA%AB/</guid>
       <description>0.背景 一、环境配置的难题 软件开发最大的麻烦事之一，就是环境配置。用户计算机的环境都不相同，你怎么知道自家的软件，能在那些机器跑起来？ 用户必</description>
     </item>
     
     <item>
       <title>Dockerfile</title>
-      <link>http://foryun.com.cn/post/share/docker/dockerfile/</link>
+      <link>http://foryun.com.cn/post/docker/dockerfile/</link>
       <pubDate>Thu, 24 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://foryun.com.cn/post/share/docker/dockerfile/</guid>
+      <guid>http://foryun.com.cn/post/docker/dockerfile/</guid>
       <description>Docker Dockerfile 什么是 Dockerfile？ Dockerfile 是一个用来构建镜像的文本文件，文本内容包含了一条条构建镜像所需的指令和说明。 使用 Dockerfile 定制镜像 这里仅讲解如何运</description>
     </item>
     
     <item>
       <title>docker-compose</title>
-      <link>http://foryun.com.cn/post/share/docker/docker-compose/</link>
+      <link>http://foryun.com.cn/post/docker/docker-compose/</link>
       <pubDate>Wed, 23 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://foryun.com.cn/post/share/docker/docker-compose/</guid>
+      <guid>http://foryun.com.cn/post/docker/docker-compose/</guid>
       <description>一.Docker-compose简介 1.Docker-compose简介 Docker-Compose项目是Docker官方的开源项目，负责实</description>
     </item>
     
     <item>
       <title>docker常用命令</title>
-      <link>http://foryun.com.cn/post/share/docker/docker%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link>
+      <link>http://foryun.com.cn/post/docker/docker%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</link>
       <pubDate>Tue, 22 Sep 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://foryun.com.cn/post/share/docker/docker%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</guid>
+      <guid>http://foryun.com.cn/post/docker/docker%E5%B8%B8%E7%94%A8%E5%91%BD%E4%BB%A4/</guid>
       <description>容器生命周期管理 run docker run: 创建一个新的容器并运行一个命令 语法 1 docker run [OPTIONS] IMAGE [COMMAND] [ARG...] OPTIONS说明： -a stdin: 指定标准输入输出内容类型，可选 STDIN/STDOUT/STDERR 三项； -d: 后台运</description>
     </item>
     
@@ -180,19 +198,19 @@
     
     <item>
       <title>vue环境搭建</title>
-      <link>http://foryun.com.cn/post/share/vue/vue%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</link>
+      <link>http://foryun.com.cn/post/vue/vue%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</link>
       <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://foryun.com.cn/post/share/vue/vue%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</guid>
+      <guid>http://foryun.com.cn/post/vue/vue%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</guid>
       <description>安装vue-cli 1 cnpm install -g @vue/cli</description>
     </item>
     
     <item>
       <title>vuepress博客搭建</title>
-      <link>http://foryun.com.cn/post/share/vue/vuepress%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</link>
+      <link>http://foryun.com.cn/post/vue/vuepress%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</link>
       <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://foryun.com.cn/post/share/vue/vuepress%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</guid>
+      <guid>http://foryun.com.cn/post/vue/vuepress%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</guid>
       <description>博客使用的是VuePress制作。 主题用的vuepress-theme-reco。 具体的安装，初始化，部署流程，自行看上面的链接。 该博客的常</description>
     </item>
     

@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>UnityGameFramework - Foryun - Share</title>
+  <meta name="renderer" content="webkit" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+
+<meta http-equiv="Cache-Control" content="no-transform" />
+<meta http-equiv="Cache-Control" content="no-siteapp" />
+
+<meta name="theme-color" content="#f8f5ec" />
+<meta name="msapplication-navbutton-color" content="#f8f5ec">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f5ec">
+
+
+<meta name="author" content="Danic" /><meta name="description" content="Base UnityGameFramework/Scripts/Runtime/Base ShutdownType 关闭游戏框架类型：仅关闭游戏框架、关闭游戏框架并重启游戏、关闭游戏框架并退出游戏。 GameFrameworkComponent 针对MonoBehaviour进行二次封装，这是个" /><meta name="keywords" content="Blog, IT, Share, Record" />
+
+
+
+
+
+
+<meta name="generator" content="Hugo 0.81.0 with theme even" />
+
+
+<link rel="canonical" href="http://foryun.com.cn/post/unitygameframework/unitygameframework/" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+
+<link href="/sass/main.min.af7fd1da18d66c2b017df5b4cae508ef44cfcac3fb4c7c7a327fe4f4f9e28b08.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.css" integrity="sha256-7TyXnr2YU040zfSP+rEcz29ggW4j56/ujTPwjMzyqFY=" crossorigin="anonymous">
+
+
+<meta property="og:title" content="UnityGameFramework" />
+<meta property="og:description" content="Base UnityGameFramework/Scripts/Runtime/Base ShutdownType 关闭游戏框架类型：仅关闭游戏框架、关闭游戏框架并重启游戏、关闭游戏框架并退出游戏。 GameFrameworkComponent 针对MonoBehaviour进行二次封装，这是个" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://foryun.com.cn/post/unitygameframework/unitygameframework/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2021-03-14T09:55:41&#43;04:00" />
+<meta property="article:modified_time" content="2021-03-14T11:56:46&#43;04:00" />
+
+<meta itemprop="name" content="UnityGameFramework">
+<meta itemprop="description" content="Base UnityGameFramework/Scripts/Runtime/Base ShutdownType 关闭游戏框架类型：仅关闭游戏框架、关闭游戏框架并重启游戏、关闭游戏框架并退出游戏。 GameFrameworkComponent 针对MonoBehaviour进行二次封装，这是个"><meta itemprop="datePublished" content="2021-03-14T09:55:41&#43;04:00" />
+<meta itemprop="dateModified" content="2021-03-14T11:56:46&#43;04:00" />
+<meta itemprop="wordCount" content="1333">
+<meta itemprop="keywords" content="UnityGameFramework," /><meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="UnityGameFramework"/>
+<meta name="twitter:description" content="Base UnityGameFramework/Scripts/Runtime/Base ShutdownType 关闭游戏框架类型：仅关闭游戏框架、关闭游戏框架并重启游戏、关闭游戏框架并退出游戏。 GameFrameworkComponent 针对MonoBehaviour进行二次封装，这是个"/>
+
+<!--[if lte IE 9]>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/classlist/1.1.20170427/classList.min.js"></script>
+<![endif]-->
+
+<!--[if lt IE 9]>
+  <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+<![endif]-->
+
+</head>
+<body>
+  <div id="mobile-navbar" class="mobile-navbar">
+  <div class="mobile-header-logo">
+    <a href="/" class="logo">Foryun</a>
+  </div>
+  <div class="mobile-navbar-icon">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+</div>
+<nav id="mobile-menu" class="mobile-menu slideout-menu">
+  <ul class="mobile-menu-list">
+    <a href="/">
+        <li class="mobile-menu-item">Home</li>
+      </a><a href="/post/">
+        <li class="mobile-menu-item">Archives</li>
+      </a><a href="/tags/">
+        <li class="mobile-menu-item">Tags</li>
+      </a><a href="/categories/">
+        <li class="mobile-menu-item">Categories</li>
+      </a><a href="/diary/">
+        <li class="mobile-menu-item">Diary</li>
+      </a><a href="/record/">
+        <li class="mobile-menu-item">Record</li>
+      </a>
+  </ul>
+
+  
+
+
+</nav>
+
+  <div class="container" id="mobile-panel">
+    <header id="header" class="header">
+        <div class="logo-wrapper">
+  <a href="/" class="logo">Foryun</a>
+</div>
+
+
+
+
+
+<nav class="site-navbar">
+  <ul id="menu" class="menu">
+    <li class="menu-item">
+        <a class="menu-item-link" href="/">Home</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/post/">Archives</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/tags/">Tags</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/categories/">Categories</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/diary/">Diary</a>
+      </li><li class="menu-item">
+        <a class="menu-item-link" href="/record/">Record</a>
+      </li>
+  </ul>
+</nav>
+
+    </header>
+
+    <main id="main" class="main">
+      <div class="content-wrapper">
+        <div id="content" class="content">
+          <article class="post">
+    
+    <header class="post-header">
+      <h1 class="post-title">UnityGameFramework</h1>
+
+      <div class="post-meta">
+        <span class="post-time"> 2021-03-14 </span>
+        <div class="post-category">
+            <a href="/categories/unitygameframework/"> UnityGameFramework </a>
+            </div>
+          <span class="more-meta"> 约 1333 字 </span>
+          <span class="more-meta"> 预计阅读 3 分钟 </span>
+        <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 次阅读 </span>
+      </div>
+    </header>
+
+    <div class="post-toc" id="post-toc">
+  <h2 class="post-toc-title">文章目录</h2>
+  <div class="post-toc-content always-active">
+    <nav id="TableOfContents">
+  <ul>
+    <li>
+      <ul>
+        <li><a href="#base">Base</a></li>
+        <li><a href="#event">Event</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav>
+  </div>
+</div>
+    <div class="post-content">
+      <h2 id="base">Base</h2>
+<blockquote>
+<p>UnityGameFramework/Scripts/Runtime/Base</p>
+</blockquote>
+<ul>
+<li>
+<p>ShutdownType</p>
+<ul>
+<li>关闭游戏框架类型：仅关闭游戏框架、关闭游戏框架并重启游戏、关闭游戏框架并退出游戏。</li>
+</ul>
+</li>
+<li>
+<p>GameFrameworkComponent</p>
+<ul>
+<li>针对MonoBehaviour进行二次封装，这是个抽象类，将Awake弄成虚方法。里面调用了<code>GameEntry.RegisterComponent(this);</code>相当于继承该类的游戏框架组件，挂在到显示状态的对象上，都会被自动注册到框架中。</li>
+</ul>
+</li>
+<li>
+<p>BaseComponent</p>
+<ul>
+<li>基础组件，GameFrameworkComponent的派生类，不能被继承，用于设置框架的基础参数，和设置基础模块。</li>
+<li>定义窗口dpi，默认值是96，<code>private const int DefaultDpi = 96;</code> 这里默认是Screen.dpi，如果窗口dpi异常，则使用默认dpi。</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span><span class="lnt">4
+</span><span class="lnt">5
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-c#" data-lang="c#"><span class="n">Utility</span><span class="p">.</span><span class="n">Converter</span><span class="p">.</span><span class="n">ScreenDpi</span> <span class="p">=</span> <span class="n">Screen</span><span class="p">.</span><span class="n">dpi</span><span class="p">;</span>
+<span class="k">if</span> <span class="p">(</span><span class="n">Utility</span><span class="p">.</span><span class="n">Converter</span><span class="p">.</span><span class="n">ScreenDpi</span> <span class="p">&lt;=</span> <span class="m">0</span><span class="p">)</span>
+<span class="p">{</span>
+	<span class="n">Utility</span><span class="p">.</span><span class="n">Converter</span><span class="p">.</span><span class="n">ScreenDpi</span> <span class="p">=</span> <span class="n">DefaultDpi</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>定义是否使用编辑器资源模式，如果是，则不加载Assetbundle，直接使用项目中的资源。<code>EditorResourceMode</code>，仅在编辑器内有效。</li>
+<li>设置编辑器语言，<code>EditorLanguage</code>，仅在编辑器内有效，<code>m_EditorResourceMode &amp;= Application.isEditor;</code></li>
+<li>设置版本辅助器的类型名，<code>private Language m_EditorLanguage = Language.Unspecified;</code>用于反射获取版本辅助器的类，并构建对象。</li>
+<li>设置日志辅助器的类型名，<code>private string m_LogHelperTypeName = &quot;UnityGameFramework.Runtime.DefaultLogHelper&quot;;</code> 用于反射获取日志辅助器的类，并构建对象。</li>
+<li>设置压缩辅助器的类型名，<code>private string m_CompressionHelperTypeName = &quot;UnityGameFramework.Runtime.DefaultCompressionHelper&quot;;</code> 用于反射获取压缩辅助器的类，并构建对象。</li>
+<li>设置Json辅助器的类型名，<code>private string m_JsonHelperTypeName = &quot;UnityGameFramework.Runtime.DefaultJsonHelper&quot;;</code>用于反射获取Json辅助器的类，并构建对象。</li>
+<li>设置游戏帧率，<code>private int m_FrameRate = 30;</code> ,其实就是改 <code>Application.targetFrameRate = m_FrameRate;</code>,</li>
+<li>设置游戏速度，<code>private float m_GameSpeed = 1f;</code> ,其实就是改 <code>Time.timeScale = m_GameSpeed;</code></li>
+<li>设置是否在后台运行，<code>RunInBackground</code>，其实就是改<code>Application.runInBackground</code></li>
+<li>是否不息屏，<code>NeverSleep</code>，其实就是改<code>Screen.sleepTimeout = value ? SleepTimeout.NeverSleep : SleepTimeout.SystemSetting;</code></li>
+<li>判断游戏是否暂停，<code>IsGamePaused</code>，其实就是判断一下游戏速度是否小于等于0。</li>
+<li>判断游戏是否是正常速度，<code>IsNormalGameSpeed</code>，其实就是判断一下游戏速度是否等于1。</li>
+<li>Awake中初始化，版本辅助器、日志辅助器、压缩辅助器、Json辅助器，通过反射，获得类，并实例化对象，保存起来。</li>
+<li>增加了低内存回调，当内存不足时，清空对象池，卸载没有使用的资源。</li>
+<li>提供了暂停游戏，恢复游戏，重置默认游戏速度，关闭方法。</li>
+<li>这里会调用GameFrameworkEntry的一些方法，Update传<code>Time.deltaTime, Time.unscaledDeltaTime</code>给GameFrameworkEntry，让框架层拥有Unity的刷新逻辑。OnDestroy的时候调用GameFrameworkEntry的Shutdown，告诉框架层释放。</li>
+</ul>
+</li>
+<li>
+<p>GameEntry</p>
+<ul>
+<li>这是个静态类，是游戏的入口函数。</li>
+<li>获取组件方法，组件用循环链表保存。</li>
+<li>关闭方法，调用baseComponent的关闭方法，根据ShutdownType来决定是重启初始场景，还是退出程序。</li>
+<li>注册组件方法</li>
+</ul>
+</li>
+</ul>
+<h2 id="event">Event</h2>
+<ul>
+<li>EventComponent
+<ul>
+<li>事件组件，核心就是调用了一下EventManager。</li>
+</ul>
+</li>
+</ul>
+
+    </div>
+
+    <div class="post-copyright">
+  <p class="copyright-item">
+    <span class="item-title">文章作者</span>
+    <span class="item-content">Danic</span>
+  </p>
+  <p class="copyright-item">
+    <span class="item-title">上次更新</span>
+    <span class="item-content">
+        2021-03-14
+        
+    </span>
+  </p>
+  
+  
+</div>
+<footer class="post-footer">
+      <div class="post-tags">
+          <a href="/tags/unitygameframework/">UnityGameFramework</a>
+          </div>
+      <nav class="post-nav">
+        <a class="prev" href="/post/unitygameframework/gameframework/">
+            <i class="iconfont icon-left"></i>
+            <span class="prev-text nav-default">GameFramework</span>
+            <span class="prev-text nav-mobile">上一篇</span>
+          </a>
+        <a class="next" href="/post/share/jenkins%E9%85%8D%E7%BD%AE/">
+            <span class="next-text nav-default">jenkins Mac配置</span>
+            <span class="next-text nav-mobile">下一篇</span>
+            <i class="iconfont icon-right"></i>
+          </a>
+      </nav>
+    </footer>
+  </article>
+        </div>
+        
+
+  <span id="/post/unitygameframework/unitygameframework/" class="leancloud_visitors" data-flag-title="UnityGameFramework">
+		<span class="post-meta-item-text">文章阅读量 </span>
+		<span class="leancloud-visitors-count">0</span>
+		<p></p>
+	  </span>
+  <div id="vcomments"></div>
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+  <script type="text/javascript">
+    new Valine({
+        el: '#vcomments' ,
+        appId: 'insXINA0D2ccQdcEfEcMSjgn-gzGzoHsz',
+        appKey: 'HEAEkloDNn3aFg4Yr1W4iGM3',
+        notify:  false ,
+        verify:  false ,
+        avatar:'mm',
+        placeholder: '说点什么吧...',
+        visitor:  true 
+    });
+  </script>
+
+  
+
+      </div>
+    </main>
+
+    <footer id="footer" class="footer">
+      <div class="social-links">
+      <a href="mailto:1186976350@qq.com" class="iconfont icon-email" title="email"></a>
+      <a href="https://github.com/DanicCheng" class="iconfont icon-github" title="github"></a>
+      <a href="https://space.bilibili.com/2920221?spm_id_from=333.788.b_765f7570696e666f.2" class="iconfont icon-bilibili" title="bilibili"></a>
+  
+</div>
+
+<div class="copyright">
+  <span class="power-by">
+    由 <a class="hexo-link" href="https://gohugo.io">Hugo</a> 强力驱动
+  </span>
+  <span class="division">|</span>
+  <span class="theme-info">
+    主题 - 
+    <a class="theme-link" href="https://github.com/olOwOlo/hugo-theme-even">Even</a>
+  </span>
+
+  <div class="busuanzi-footer">
+    <span id="busuanzi_container_site_pv"> 本站总访问量 <span id="busuanzi_value_site_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 次 </span>
+      <span class="division">|</span>
+    <span id="busuanzi_container_site_uv"> 本站总访客数 <span id="busuanzi_value_site_uv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 人 </span>
+  </div>
+
+  <span class="copyright-year">
+    &copy; 
+    2017 - 
+    2021<span class="heart"><i class="iconfont icon-heart"></i></span><span>Foryun</span>
+  </span>
+
+  <span class="beian">
+    
+    备案号：<a href="https://beian.miit.gov.cn" target="_blank">粤ICP备18045119号</a>
+    
+  </span>
+
+</div>
+
+    </footer>
+
+    <div class="back-to-top" id="back-to-top">
+      <i class="iconfont icon-up"></i>
+    </div>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/slideout@1.0.1/dist/slideout.min.js" integrity="sha256-t+zJ/g8/KXIJMjSVQdnibt4dlaDxc9zXr/9oNPeWqdg=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@fancyapps/fancybox@3.1.20/dist/jquery.fancybox.min.js" integrity="sha256-XVLffZaxoWfGUEbdzuLi7pwaUJv1cecsQJQqGLe7axY=" crossorigin="anonymous"></script>
+
+
+
+<script type="text/javascript" src="/js/main.min.c99b103c33d1539acf3025e1913697534542c4a5aa5af0ccc20475ed2863603b.js"></script>
+
+<script id="baidu_analytics">
+  var _hmt = _hmt || [];
+  (function() {
+    if (window.location.hostname === 'localhost') return;
+    var hm = document.createElement("script"); hm.async = true;
+    hm.src = "https://hm.baidu.com/hm.js?57ed19d6fdd95893edd119b86ac49dab";
+    var s = document.getElementsByTagName("script")[0];
+    s.parentNode.insertBefore(hm, s);
+  })();
+</script>
+
+
+
+
+
+
+</body>
+</html>

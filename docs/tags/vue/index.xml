@@ -9,19 +9,19 @@
     <lastBuildDate>Sun, 02 Aug 2020 00:00:00 +0000</lastBuildDate><atom:link href="http://foryun.com.cn/tags/vue/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>vue环境搭建</title>
-      <link>http://foryun.com.cn/post/share/vue/vue%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</link>
+      <link>http://foryun.com.cn/post/vue/vue%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</link>
       <pubDate>Sun, 02 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://foryun.com.cn/post/share/vue/vue%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</guid>
+      <guid>http://foryun.com.cn/post/vue/vue%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</guid>
       <description>安装vue-cli 1 cnpm install -g @vue/cli</description>
     </item>
     
     <item>
       <title>vuepress博客搭建</title>
-      <link>http://foryun.com.cn/post/share/vue/vuepress%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</link>
+      <link>http://foryun.com.cn/post/vue/vuepress%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</link>
       <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
       
-      <guid>http://foryun.com.cn/post/share/vue/vuepress%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</guid>
+      <guid>http://foryun.com.cn/post/vue/vuepress%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</guid>
       <description>博客使用的是VuePress制作。 主题用的vuepress-theme-reco。 具体的安装，初始化，部署流程，自行看上面的链接。 该博客的常</description>
     </item>
     
