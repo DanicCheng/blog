@@ -13,7 +13,7 @@
       <pubDate>Mon, 22 Mar 2021 14:33:13 +0400</pubDate>
       
       <guid>http://foryun.com.cn/post/unitygameframework/unitygameframework-xlua/</guid>
-      <description>Rider环境搭建</description>
+      <description>Rider环境搭建 Rider在插件里安装EmmyLua 这时，Rider已经支持Lua语法高亮、调试等功能了。由于Unity默认默认不支持Lu</description>
     </item>
     
     <item>
