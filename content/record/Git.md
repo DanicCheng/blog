@@ -22,3 +22,9 @@ git clone git://github.com/someone/some_project.git some_project
 git checkout .
 ```
 
+删除本地未跟踪的文件
+
+```shell
+git clean -df
+```
+

@@ -6,7 +6,16 @@
     <description>Recent content in UnityGameFramework on Foryun - Share</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 14 Mar 2021 11:50:46 +0400</lastBuildDate><atom:link href="http://foryun.com.cn/categories/unitygameframework/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 22 Mar 2021 14:33:13 +0400</lastBuildDate><atom:link href="http://foryun.com.cn/categories/unitygameframework/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>UnityGameFramework-XLua</title>
+      <link>http://foryun.com.cn/post/unitygameframework/unitygameframework-xlua/</link>
+      <pubDate>Mon, 22 Mar 2021 14:33:13 +0400</pubDate>
+      
+      <guid>http://foryun.com.cn/post/unitygameframework/unitygameframework-xlua/</guid>
+      <description>Rider环境搭建</description>
+    </item>
+    
     <item>
       <title>GameFramework</title>
       <link>http://foryun.com.cn/post/unitygameframework/gameframework/</link>
