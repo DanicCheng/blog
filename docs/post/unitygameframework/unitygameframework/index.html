@@ -49,7 +49,7 @@
 <meta itemprop="name" content="UnityGameFramework">
 <meta itemprop="description" content="Base UnityGameFramework/Scripts/Runtime/Base ShutdownType 关闭游戏框架类型：仅关闭游戏框架、关闭游戏框架并重启游戏、关闭游戏框架并退出游戏。 GameFrameworkComponent 针对MonoBehaviour进行二次封装，这是个"><meta itemprop="datePublished" content="2021-03-14T09:55:41&#43;04:00" />
 <meta itemprop="dateModified" content="2021-03-14T11:56:46&#43;04:00" />
-<meta itemprop="wordCount" content="1333">
+<meta itemprop="wordCount" content="1674">
 <meta itemprop="keywords" content="UnityGameFramework," /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="UnityGameFramework"/>
 <meta name="twitter:description" content="Base UnityGameFramework/Scripts/Runtime/Base ShutdownType 关闭游戏框架类型：仅关闭游戏框架、关闭游戏框架并重启游戏、关闭游戏框架并退出游戏。 GameFrameworkComponent 针对MonoBehaviour进行二次封装，这是个"/>
@@ -140,8 +140,8 @@
         <div class="post-category">
             <a href="/categories/unitygameframework/"> UnityGameFramework </a>
             </div>
-          <span class="more-meta"> 约 1333 字 </span>
-          <span class="more-meta"> 预计阅读 3 分钟 </span>
+          <span class="more-meta"> 约 1674 字 </span>
+          <span class="more-meta"> 预计阅读 4 分钟 </span>
         <span id="busuanzi_container_page_pv" class="more-meta"> <span id="busuanzi_value_page_pv"><img src="/img/spinner.svg" alt="spinner.svg"/></span> 次阅读 </span>
       </div>
     </header>
@@ -155,6 +155,7 @@
       <ul>
         <li><a href="#base">Base</a></li>
         <li><a href="#event">Event</a></li>
+        <li><a href="#resourcebuilderxml">ResourceBuilder.xml</a></li>
       </ul>
     </li>
   </ul>
@@ -238,7 +239,61 @@
 </ul>
 </li>
 </ul>
-
+<h2 id="resourcebuilderxml">ResourceBuilder.xml</h2>
+<p>这个是AssetBundle工具对应的配置文件：</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre class="chroma"><code><span class="lnt"> 1
+</span><span class="lnt"> 2
+</span><span class="lnt"> 3
+</span><span class="lnt"> 4
+</span><span class="lnt"> 5
+</span><span class="lnt"> 6
+</span><span class="lnt"> 7
+</span><span class="lnt"> 8
+</span><span class="lnt"> 9
+</span><span class="lnt">10
+</span><span class="lnt">11
+</span><span class="lnt">12
+</span><span class="lnt">13
+</span><span class="lnt">14
+</span><span class="lnt">15
+</span><span class="lnt">16
+</span><span class="lnt">17
+</span><span class="lnt">18
+</span><span class="lnt">19
+</span><span class="lnt">20
+</span><span class="lnt">21
+</span><span class="lnt">22
+</span><span class="lnt">23
+</span></code></pre></td>
+<td class="lntd">
+<pre class="chroma"><code class="language-xml" data-lang="xml"><span class="cp">&lt;?xml version=&#34;1.0&#34; encoding=&#34;UTF-8&#34;?&gt;</span>
+<span class="nt">&lt;UnityGameFramework&gt;</span>
+  <span class="nt">&lt;ResourceEditor&gt;</span>
+    <span class="nt">&lt;Settings&gt;</span>
+      <span class="c">&lt;!--配置资源搜索的根目录，可以从Assets根部全部查找，可以配置成子目录--&gt;</span>
+      <span class="nt">&lt;SourceAssetRootPath&gt;</span>Assets<span class="nt">&lt;/SourceAssetRootPath&gt;</span>
+      <span class="c">&lt;!--配置资源搜索的子目录，相对于根目录的路径，支持配置多个子目录，如果为空，则搜索所有子目录--&gt;</span>
+      <span class="nt">&lt;SourceAssetSearchPaths&gt;</span>
+        <span class="nt">&lt;SourceAssetSearchPath</span> <span class="na">RelativePath=</span><span class="s">&#34;&#34;</span> <span class="nt">/&gt;</span>
+      <span class="nt">&lt;/SourceAssetSearchPaths&gt;</span>
+      <span class="c">&lt;!--筛选并包含的资源类型--&gt;</span>
+      <span class="nt">&lt;SourceAssetUnionTypeFilter&gt;</span>t:Scene t:Prefab t:Shader t:Model t:Material t:Texture t:AudioClip t:AnimationClip t:AnimatorController t:Font t:TextAsset t:ScriptableObject<span class="nt">&lt;/SourceAssetUnionTypeFilter&gt;</span>
+      <span class="c">&lt;!--筛选并包含的标签类型--&gt;</span>
+      <span class="nt">&lt;SourceAssetUnionLabelFilter&gt;</span>l:ResourceInclusive l:luascript<span class="nt">&lt;/SourceAssetUnionLabelFilter&gt;</span>
+      <span class="c">&lt;!--筛选并排除的资源类型--&gt;</span>
+      <span class="nt">&lt;SourceAssetExceptTypeFilter&gt;</span>t:Script<span class="nt">&lt;/SourceAssetExceptTypeFilter&gt;</span>
+      <span class="c">&lt;!--筛选并排除的标签类型--&gt;</span>
+      <span class="nt">&lt;SourceAssetExceptLabelFilter&gt;</span>l:ResourceExclusive<span class="nt">&lt;/SourceAssetExceptLabelFilter&gt;</span>
+      <span class="c">&lt;!--编辑器中资源列表的排序，可以是Name(资源文件名），Path（资源全路径），Guid（资源Guid）--&gt;</span>
+      <span class="nt">&lt;AssetSorter&gt;</span>Path<span class="nt">&lt;/AssetSorter&gt;</span>
+    <span class="nt">&lt;/Settings&gt;</span>
+  <span class="nt">&lt;/ResourceEditor&gt;</span>
+<span class="nt">&lt;/UnityGameFramework&gt;</span>
+</code></pre></td></tr></table>
+</div>
+</div>
     </div>
 
     <div class="post-copyright">
