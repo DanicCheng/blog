@@ -2,8 +2,64 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://foryun.com.cn/post/csharp/csharp%E9%80%9A%E8%BF%87%E5%B1%9E%E6%80%A7%E4%BF%AE%E9%A5%B0%E7%AC%A6%E6%9D%A5%E6%8C%87%E5%AE%9A%E9%85%8D%E7%BD%AE%E8%B7%AF%E5%BE%84/</loc>
+    <lastmod>2021-03-24T16:53:02+04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://foryun.com.cn/categories/</loc>
+    <lastmod>2021-03-24T16:53:02+04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://foryun.com.cn/tags/csharp/</loc>
+    <lastmod>2021-03-24T16:53:02+04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://foryun.com.cn/categories/csharp/</loc>
+    <lastmod>2021-03-24T16:53:02+04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
     <loc>http://foryun.com.cn/</loc>
-    <lastmod>2021-03-23T15:19:59+08:00</lastmod>
+    <lastmod>2021-03-24T16:53:02+04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://foryun.com.cn/post/</loc>
+    <lastmod>2021-03-24T16:53:02+04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://foryun.com.cn/tags/</loc>
+    <lastmod>2021-03-24T16:53:02+04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://foryun.com.cn/tags/%E4%BF%AE%E9%A5%B0%E7%AC%A6/</loc>
+    <lastmod>2021-03-24T16:53:02+04:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>http://foryun.com.cn/tags/%E9%85%8D%E7%BD%AE%E8%B7%AF%E5%BE%84/</loc>
+    <lastmod>2021-03-24T16:53:02+04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
@@ -37,28 +93,7 @@
   </url>
   
   <url>
-    <loc>http://foryun.com.cn/categories/</loc>
-    <lastmod>2021-03-22T14:33:13+04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://foryun.com.cn/post/</loc>
-    <lastmod>2021-03-22T14:33:13+04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
     <loc>http://foryun.com.cn/tags/rider/</loc>
-    <lastmod>2021-03-22T14:33:13+04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://foryun.com.cn/tags/</loc>
     <lastmod>2021-03-22T14:33:13+04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -116,20 +151,6 @@
   <url>
     <loc>http://foryun.com.cn/categories/diary/</loc>
     <lastmod>2021-03-21T08:49:52+04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://foryun.com.cn/tags/c#/</loc>
-    <lastmod>2021-03-20T14:16:38+04:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url>
-  
-  <url>
-    <loc>http://foryun.com.cn/categories/csharp/</loc>
-    <lastmod>2021-03-20T14:16:38+04:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url>
