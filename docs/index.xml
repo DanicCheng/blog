@@ -6,7 +6,16 @@
     <description>Recent content on Foryun - Share</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 24 Mar 2021 16:53:02 +0400</lastBuildDate><atom:link href="http://foryun.com.cn/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 26 Mar 2021 07:50:09 +0400</lastBuildDate><atom:link href="http://foryun.com.cn/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>2021-3-26</title>
+      <link>http://foryun.com.cn/diary/2021-3-26/</link>
+      <pubDate>Fri, 26 Mar 2021 07:50:09 +0400</pubDate>
+      
+      <guid>http://foryun.com.cn/diary/2021-3-26/</guid>
+      <description>最近，云儿总是为了新工作的事情烦恼。前天晚上跟她分析了很久，她还是没有下定决定。其实这么多年来，我知道她是那种不安平凡，特别上进的人。就是闲</description>
+    </item>
+    
     <item>
       <title>C#通过属性修饰符来指定配置路径</title>
       <link>http://foryun.com.cn/post/csharp/csharp%E9%80%9A%E8%BF%87%E5%B1%9E%E6%80%A7%E4%BF%AE%E9%A5%B0%E7%AC%A6%E6%9D%A5%E6%8C%87%E5%AE%9A%E9%85%8D%E7%BD%AE%E8%B7%AF%E5%BE%84/</link>
