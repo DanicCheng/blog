@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Lua on Foryun - Share</title>
+    <link>http://foryun.com.cn/tags/lua/</link>
+    <description>Recent content in Lua on Foryun - Share</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 07 Apr 2021 10:52:06 +0400</lastBuildDate><atom:link href="http://foryun.com.cn/tags/lua/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lua理解</title>
+      <link>http://foryun.com.cn/post/share/lua%E7%90%86%E8%A7%A3/</link>
+      <pubDate>Wed, 07 Apr 2021 10:52:06 +0400</pubDate>
+      
+      <guid>http://foryun.com.cn/post/share/lua%E7%90%86%E8%A7%A3/</guid>
+      <description>Lua理解 从lua表中查找一个键时的流程： 假设有个lua对象a，查找a中有没有talk方法 a中有没有talk这个键？有&amp;mdash;&amp;gt;</description>
+    </item>
+    
+  </channel>
+</rss>
