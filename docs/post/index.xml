@@ -27,10 +27,10 @@
     
     <item>
       <title>Nginx的web服务器默认目录</title>
-      <link>http://foryun.com.cn/post/share/nginx%E7%9A%84web%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%BB%98%E8%AE%A4%E7%9B%AE%E5%BD%95/</link>
+      <link>http://foryun.com.cn/post/nginx/nginx%E7%9A%84web%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%BB%98%E8%AE%A4%E7%9B%AE%E5%BD%95/</link>
       <pubDate>Tue, 30 Mar 2021 10:34:31 +0400</pubDate>
       
-      <guid>http://foryun.com.cn/post/share/nginx%E7%9A%84web%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%BB%98%E8%AE%A4%E7%9B%AE%E5%BD%95/</guid>
+      <guid>http://foryun.com.cn/post/nginx/nginx%E7%9A%84web%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%BB%98%E8%AE%A4%E7%9B%AE%E5%BD%95/</guid>
       <description>nginx服务器默认目录是/usr/share/nginx/html</description>
     </item>
     
@@ -257,15 +257,6 @@
       
       <guid>http://foryun.com.cn/post/vue/vuepress%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</guid>
       <description>博客使用的是VuePress制作。 主题用的vuepress-theme-reco。 具体的安装，初始化，部署流程，自行看上面的链接。 该博客的常</description>
-    </item>
-    
-    <item>
-      <title>游戏作品链接</title>
-      <link>http://foryun.com.cn/post/products/game_url/</link>
-      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://foryun.com.cn/post/products/game_url/</guid>
-      <description>挑战智商150 一款搞怪答题游戏 2048Go 一款另类的2048消除游戏。 宝贝梦想家 一款教小孩子认识各种职业的游戏 画线消除 一款根据提示画出对应图形的消除游</description>
     </item>
     
     <item>

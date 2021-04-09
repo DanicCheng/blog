@@ -4,7 +4,7 @@ date: 2021-03-30T10:34:31+04:00
 lastmod: 2021-03-30T10:34:31+04:00
 draft: false
 tags: ["Nginx"]
-categories: ["Share"]
+categories: ["Nginx"]
 author: "Danic"
 ---
 

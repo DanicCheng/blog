@@ -1,11 +1,12 @@
 ---
-title: 游戏作品链接
-date: 2020-08-01
-tags:
- - game
-categories:
- - game
+title: Game
+date: 2021-04-09T20:14:38+04:00
+lastmod: 2021-04-09T20:14:38+04:00
+menu: "main"
+weight: 70
 ---
+
+# 部分游戏作品
 
 ## [挑战智商150](http://www.foryun.com.cn/1Game/IQChallenge150/)
 

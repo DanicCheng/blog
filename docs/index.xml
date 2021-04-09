@@ -8,6 +8,24 @@
     <language>zh-cn</language>
     <lastBuildDate>Fri, 09 Apr 2021 20:02:00 +0400</lastBuildDate><atom:link href="http://foryun.com.cn/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Game</title>
+      <link>http://foryun.com.cn/game/</link>
+      <pubDate>Fri, 09 Apr 2021 20:14:38 +0400</pubDate>
+      
+      <guid>http://foryun.com.cn/game/</guid>
+      <description>部分游戏作品 挑战智商150 一款搞怪答题游戏 2048Go 一款另类的2048消除游戏。 宝贝梦想家 一款教小孩子认识各种职业的游戏 画线消除 一款根据提示画出对应</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>http://foryun.com.cn/about/</link>
+      <pubDate>Fri, 09 Apr 2021 20:14:38 +0400</pubDate>
+      
+      <guid>http://foryun.com.cn/about/</guid>
+      <description>欢迎光临 鄙人热衷游戏开发，如有Unity，CocosCreator相关问题，欢迎探讨。 作品 部分游戏作品 涉猎 游戏前端 Unity3D CocosCreator FairyGUI Android Web Vue 服务端 nano 开发语</description>
+    </item>
+    
+    <item>
       <title>Nginx配置</title>
       <link>http://foryun.com.cn/post/nginx/nginx%E9%85%8D%E7%BD%AE/</link>
       <pubDate>Fri, 09 Apr 2021 20:02:00 +0400</pubDate>
@@ -27,10 +45,10 @@
     
     <item>
       <title>Nginx的web服务器默认目录</title>
-      <link>http://foryun.com.cn/post/share/nginx%E7%9A%84web%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%BB%98%E8%AE%A4%E7%9B%AE%E5%BD%95/</link>
+      <link>http://foryun.com.cn/post/nginx/nginx%E7%9A%84web%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%BB%98%E8%AE%A4%E7%9B%AE%E5%BD%95/</link>
       <pubDate>Tue, 30 Mar 2021 10:34:31 +0400</pubDate>
       
-      <guid>http://foryun.com.cn/post/share/nginx%E7%9A%84web%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%BB%98%E8%AE%A4%E7%9B%AE%E5%BD%95/</guid>
+      <guid>http://foryun.com.cn/post/nginx/nginx%E7%9A%84web%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%BB%98%E8%AE%A4%E7%9B%AE%E5%BD%95/</guid>
       <description>nginx服务器默认目录是/usr/share/nginx/html</description>
     </item>
     
@@ -251,15 +269,6 @@
     </item>
     
     <item>
-      <title>About</title>
-      <link>http://foryun.com.cn/about/</link>
-      <pubDate>Sun, 14 Mar 2021 08:45:41 +0400</pubDate>
-      
-      <guid>http://foryun.com.cn/about/</guid>
-      <description>Hello World</description>
-    </item>
-    
-    <item>
       <title>jenkins Mac配置</title>
       <link>http://foryun.com.cn/post/share/jenkins%E9%85%8D%E7%BD%AE/</link>
       <pubDate>Tue, 15 Dec 2020 00:00:00 +0000</pubDate>
@@ -383,15 +392,6 @@
       
       <guid>http://foryun.com.cn/post/vue/vuepress%E5%8D%9A%E5%AE%A2%E6%90%AD%E5%BB%BA/</guid>
       <description>博客使用的是VuePress制作。 主题用的vuepress-theme-reco。 具体的安装，初始化，部署流程，自行看上面的链接。 该博客的常</description>
-    </item>
-    
-    <item>
-      <title>游戏作品链接</title>
-      <link>http://foryun.com.cn/post/products/game_url/</link>
-      <pubDate>Sat, 01 Aug 2020 00:00:00 +0000</pubDate>
-      
-      <guid>http://foryun.com.cn/post/products/game_url/</guid>
-      <description>挑战智商150 一款搞怪答题游戏 2048Go 一款另类的2048消除游戏。 宝贝梦想家 一款教小孩子认识各种职业的游戏 画线消除 一款根据提示画出对应图形的消除游</description>
     </item>
     
     <item>

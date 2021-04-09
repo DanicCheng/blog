@@ -18,10 +18,10 @@
     
     <item>
       <title>Nginx的web服务器默认目录</title>
-      <link>http://foryun.com.cn/post/share/nginx%E7%9A%84web%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%BB%98%E8%AE%A4%E7%9B%AE%E5%BD%95/</link>
+      <link>http://foryun.com.cn/post/nginx/nginx%E7%9A%84web%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%BB%98%E8%AE%A4%E7%9B%AE%E5%BD%95/</link>
       <pubDate>Tue, 30 Mar 2021 10:34:31 +0400</pubDate>
       
-      <guid>http://foryun.com.cn/post/share/nginx%E7%9A%84web%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%BB%98%E8%AE%A4%E7%9B%AE%E5%BD%95/</guid>
+      <guid>http://foryun.com.cn/post/nginx/nginx%E7%9A%84web%E6%9C%8D%E5%8A%A1%E5%99%A8%E9%BB%98%E8%AE%A4%E7%9B%AE%E5%BD%95/</guid>
       <description>nginx服务器默认目录是/usr/share/nginx/html</description>
     </item>
     
