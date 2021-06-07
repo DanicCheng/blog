@@ -2,10 +2,10 @@
 title: UnityShaderGraph
 date: 2021-04-11T19:41:04+04:00
 lastmod: 2021-04-11T19:41:04+04:00
-draft: false
-tags: ["ShaderGraph","发布订阅模式"]
-categories: ["Unity"]
-author: "Danic"
+tags: 
+- ShaderGraph
+categories: 
+- Unity
 ---
 
 ## 源码地址
@@ -15,6 +15,8 @@ https://gitee.com/foryun/UnityShaderGraph.git
 
 
 ## 博客
+
+http://www.foryun.com.cn/post/unityshadergraph/unityshadergraph/
 
 
 

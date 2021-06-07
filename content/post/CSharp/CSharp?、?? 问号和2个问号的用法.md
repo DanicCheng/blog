@@ -1,11 +1,9 @@
 ---
-title: "C#?、?? 问号和2个问号的用法"
+title: "CSharp?、?? 问号和2个问号的用法"
 date: 2021-03-20T10:36:30+04:00
 lastmod: 2021-03-20T10:36:30+04:00
-draft: false
-tags: ["CSharp"]
-categories: ["CSharp"]
-author: "Danic"
+tags: CSharp
+categories: CSharp
 ---
 
 ## ?:单问号 

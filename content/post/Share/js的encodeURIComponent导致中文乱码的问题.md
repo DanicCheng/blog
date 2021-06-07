@@ -3,8 +3,11 @@ title: "js的encodeURIComponent导致中文乱码的问题"
 date: 2021-03-18T10:22:59+04:00
 lastmod: 2021-03-18T10:22:59+04:00
 draft: false
-tags: ["encodeURIComponent","js","中文乱码"]
-categories: ["Share"]
+tags: 
+ - encodeURIComponent
+ - js
+ - 中文乱码
+categories: Share
 author: "Danic"
 ---
 

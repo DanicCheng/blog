@@ -3,8 +3,8 @@ title: "pako.js简单使用"
 date: 2021-03-15T15:22:43+04:00
 lastmod: 2021-03-15T15:22:43+04:00
 draft: false
-tags: ["pako"]
-categories: ["Share"]
+tags: pako
+categories: Share
 author: "Danic"
 ---
 

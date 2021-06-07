@@ -2,10 +2,8 @@
 title: "JavaScript及C# URI编码详解"
 date: 2021-03-15T15:12:17+04:00
 lastmod: 2021-03-15T15:12:17+04:00
-draft: false
-tags: ["URI"]
-categories: ["Share"]
-author: "Danic"
+tags: URI
+categories: Share
 ---
 
 # 混乱的URI编码

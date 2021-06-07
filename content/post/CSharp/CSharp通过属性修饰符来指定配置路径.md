@@ -1,11 +1,12 @@
 ---
-title: "C#通过属性修饰符来指定配置路径"
+title: "CSharp通过属性修饰符来指定配置路径"
 date: 2021-03-24T16:53:02+04:00
 lastmod: 2021-03-24T16:53:02+04:00
-draft: false
-tags: ["CSharp","修饰符","配置路径"]
-categories: ["CSharp"]
-author: "Danic"
+tags: 
+ - CSharp
+ - 修饰符
+ - 配置路径
+categories: CSharp
 ---
 
 ## 前言

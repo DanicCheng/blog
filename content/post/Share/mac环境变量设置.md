@@ -1,8 +1,8 @@
 ---
 title: mac环境变量设置
 date: 2020-09-22
-tags: ["Mac"]
-categories: ["Share"]
+tags: Mac
+categories: Share
 author: "Danic"
 ---
 

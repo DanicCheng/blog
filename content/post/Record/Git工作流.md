@@ -1,9 +1,8 @@
 ---
 title: Git工作流
 date: 2021-02-29
-tags: ["Git"]
-categories: ["Record"]
-author: "Danic"
+tags: git
+categories: 记录
 ---
 
 ## Git工作流

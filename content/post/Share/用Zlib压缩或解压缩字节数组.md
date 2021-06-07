@@ -3,8 +3,8 @@ title: "C#用Zlib压缩或解压缩字节数组"
 date: 2021-03-15T15:26:17+04:00
 lastmod: 2021-03-15T15:26:17+04:00
 draft: false
-tags: ["zlib"]
-categories: ["Share"]
+tags: zlib
+categories: Share
 author: "Danic"
 ---
 

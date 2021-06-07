@@ -1,9 +1,11 @@
 ---
 title: Task-Async-Await
 date: 2020-10-09
-tags: ["task","async","await"]
-categories: ["Share"]
-author: "Danic"
+tags: 
+ - task
+ - async
+ - await
+categories: Share
 ---
 
 常规的async/await如下：

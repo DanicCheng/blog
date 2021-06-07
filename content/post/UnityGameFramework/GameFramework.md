@@ -2,10 +2,8 @@
 title: "GameFramework"
 date: 2021-03-14T11:50:46+04:00
 lastmod: 2021-03-20T10:10:56+04:00
-draft: false
-tags: ["UnityGameFramework"]
-categories: ["UnityGameFramework"]
-author: "Danic"
+tags: UnityGameFramework
+categories: UnityGameFramework
 ---
 
 

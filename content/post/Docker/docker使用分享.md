@@ -1,13 +1,8 @@
 ---
 title: docker使用分享
 date: 2020-09-25
-tags:
- - docker
-categories:
- -  docker
-
-
-
+tags:docker
+categories:docker
 ---
 
 ### 0.背景

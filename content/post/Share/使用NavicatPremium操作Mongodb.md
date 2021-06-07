@@ -1,9 +1,10 @@
 ---
 title: 使用NavicatPremium操作Mongodb
 date: 2020-10-11
-tags: ["NavicatPremium","Mongodb"]
-categories: ["Share"]
-Author: "Danic"
+tags: 
+ - NavicatPremium
+ - Mongodb
+categories: Share
 ---
 
 ## 下载安装NavicatPremium

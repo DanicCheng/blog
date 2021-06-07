@@ -2,10 +2,8 @@
 title: "UnityGameFramework"
 date: 2021-03-14T09:55:41+04:00
 lastmod: 2021-03-14T11:56:46+04:00
-draft: false
-tags: ["UnityGameFramework"]
-categories: ["UnityGameFramework"]
-author: "Danic"
+tags: UnityGameFramework
+categories: UnityGameFramework
 ---
 
 ## Base
@@ -61,6 +59,15 @@ author: "Danic"
 
 - EventComponent
   - 事件组件，核心就是调用了一下EventManager。
+
+## Resource
+
+- ResourceComponent
+  - 资源组件，负责资源加载，释放，下载。
+  - ResourceMode，获取资源模式：
+    - Package，单机模式，不会去下载，直接去StreamingAssets加载。
+    - Updatable，预下载的可更新模式，加载资源前，需要提前将所有资源下载好，调用UpdateResources。
+    - UpdatableWhilePlaying，使用时下载的可更新模式，如果没有提前下载好资源，会在使用时再去下载资源。
 
 ## ResourceBuilder.xml
 

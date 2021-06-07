@@ -1,12 +1,8 @@
 ---
 title: Dockerfile
 date: 2020-09-24
-tags:
- - docker
-categories:
- -  docker
-
-
+tags:docker
+categories:docker
 ---
 
 # Docker Dockerfile

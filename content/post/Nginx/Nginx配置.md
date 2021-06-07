@@ -2,10 +2,8 @@
 title: Nginx配置
 date: 2021-04-09T20:02:00+04:00
 lastmod: 2021-04-09T20:02:00+04:00
-draft: false
-tags: ["Nginx"]
-categories: ["Nginx"]
-author: "Danic"
+tags: Nginx
+categories: Nginx
 ---
 
 - 创建docker-compose.yml

@@ -1,9 +1,8 @@
 ---
 title: pomelo
 date: 2021-3-12
-tags: ["pomelo"]
-categories: ["Share"]
-author: "Danic"
+tags: pomelo
+categories: Share
 ---
 
 ## pomelo构成

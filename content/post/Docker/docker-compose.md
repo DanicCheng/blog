@@ -1,12 +1,8 @@
 ---
 title: docker-compose
 date: 2020-09-23
-tags:
- - docker
-categories:
- -  docker
-
-
+tags:docker
+categories:docker
 ---
 
 ### 一.Docker-compose简介

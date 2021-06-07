@@ -1,9 +1,8 @@
 ---
 title: shell常用指令
 date: 2020-12-15
-tags: ["shell"]
-categories: ["Share"]
-author: "Danic"
+tags: shell
+categories: Share
 ---
 
 ## $开头

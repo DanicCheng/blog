@@ -1,7 +1,9 @@
 ---
 title: "Git"
 date: 2021-03-19T10:56:24+04:00
-draft: false
+tags: 
+ - git
+categories: 记录
 ---
 
 拉取代码

@@ -1,7 +1,9 @@
 ---
 title: "Hugo"
 date: 2021-03-14T08:52:20+04:00
-draft: false
+tags: 
+ - Hogo
+categories: 记录
 ---
 
 #### 创建新文件

@@ -1,7 +1,9 @@
 ---
 title: "Jenkins"
 date: 2021-03-22T15:39:04+04:00
-draft: false
+tags: 
+ - jenkins
+categories: 记录
 ---
 
 ## 后台启动

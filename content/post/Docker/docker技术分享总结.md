@@ -1,10 +1,8 @@
 ---
 title: docker技术分享总结
 date: 2020-09-26
-tags:
- - record
-categories:
- - record
+tags:docker
+categories:docker
 ---
 
 - 今天给项目组的小伙伴分享了一下docker的使用，感觉分享的过程和效果都不太理想。我发现主要有以下几个问题。

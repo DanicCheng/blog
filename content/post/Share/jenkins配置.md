@@ -1,8 +1,8 @@
 ---
 title: jenkins Mac配置
 date: 2020-12-15
-tags: ["jenkins"]
-categories: ["Share"]
+tags: jenkins
+categories: Share
 author: "Danic"
 ---
 
